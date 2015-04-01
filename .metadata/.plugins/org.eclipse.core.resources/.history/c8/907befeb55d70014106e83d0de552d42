@@ -1,0 +1,26 @@
+package com.hotelmgmt.service;
+
+public class PrefCustService implements CustomerServices
+{
+
+	@Override
+	public void addCustomer() {
+		
+		
+	}
+
+	@Override
+	public void deleteCustomer() {
+		
+		
+	}
+
+	@Override
+	public void updateCustomer() {
+		
+		
+	}
+
+	
+
+}

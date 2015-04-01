@@ -1,0 +1,20 @@
+package com.hotelmgmt.domain;
+
+ class Customer {
+	 
+	public static String prefix = "Mr";
+	
+	private String fName ;
+	private String lName ;
+	
+	public Customer(String a ,String b)
+	{
+		fName = a;
+		lName = b;
+		
+	}
+	
+	
+
+	
+}

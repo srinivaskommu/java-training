@@ -1,0 +1,12 @@
+package com.hotelmgmt.process;
+
+public class PrfitCalculator 
+{
+	
+	public int CalculateBill(Cutomer cust, int food){
+		
+		int price = food*100;
+	}
+	
+
+}

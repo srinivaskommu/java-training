@@ -1,0 +1,31 @@
+package com.hotelmgmt.domain;
+
+public class TestPrefCustomer {
+
+	public static void main(String[] args) 
+	{
+		PreferredCustomer johnRefernece = new PreferredCustomer("john","pogan");
+		displayCustomerDetails(johnRefernece);
+		
+		PreferredCustomer mark = new PreferredCustomer("mark", "smith");
+		displayCustomerDetails(mark);
+		
+		
+		PreferredCustomer chris = new PreferredCustomer("chris","taylor");
+		displayCustomerDetails(chris);
+
+
+	}
+	
+	public static void displayCustomerDetails(PreferredCustomer john)
+	{
+		System.out.println(Customer.prefix);
+		System.out.println("First Name "+john.getfName());
+		System.out.println("Last Name "+john.getlName());	
+
+		
+
+		
+	}
+
+}

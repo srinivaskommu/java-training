@@ -1,0 +1,26 @@
+package com.hotelmgmt.domain;
+
+\class Customer {
+	
+	private String fName ;
+	private String lName ;
+	
+	public Customer(String a ,String b)
+	{
+		fName = a;
+		lName = b;
+		
+	}
+	
+	public String getFristName()
+	{
+		return fName;
+	}
+	
+	public String getLastName()
+	{
+		return lName;
+	}
+
+	
+}

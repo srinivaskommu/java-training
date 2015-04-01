@@ -1,0 +1,10 @@
+package com.hotelmgmt.service;
+
+public class CustomerService 
+{
+	
+	
+	public void createCustomer();
+	
+
+}

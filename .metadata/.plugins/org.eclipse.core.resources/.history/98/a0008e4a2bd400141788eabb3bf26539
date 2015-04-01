@@ -1,0 +1,24 @@
+package com.hotelmgmt.domain;
+
+public class TestCustomer {
+
+	public static void main(String[] args) 
+	{
+		
+		Customer john = new Customer("john","pogan");
+		
+		Customer mark = new Customer("mark", "smith");
+		
+		Customer chris = new Customer("chris","taylor");
+	
+	}
+	
+	
+	public static void someJunkFunction(Customer john){
+		System.out.println();
+		
+
+		
+	}
+
+}

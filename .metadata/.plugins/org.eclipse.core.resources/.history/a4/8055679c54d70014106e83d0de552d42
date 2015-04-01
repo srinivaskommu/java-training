@@ -1,0 +1,14 @@
+package com.hotelmgmt.service;
+
+public abstract class CustomerService 
+{
+	
+	
+	public void createCustomer();
+	
+	public voii provideHotelAddress(){
+		
+	}
+	
+
+}

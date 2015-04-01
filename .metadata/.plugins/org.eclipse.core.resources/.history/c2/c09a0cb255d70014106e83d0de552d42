@@ -1,0 +1,14 @@
+package com.hotelmgmt.service;
+
+public class PrefCustService extends CustomerService
+{
+
+	@Override
+	void addCustomer() 
+	{
+		
+		///
+		
+	}
+
+}

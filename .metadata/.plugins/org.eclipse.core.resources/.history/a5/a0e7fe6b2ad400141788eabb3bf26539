@@ -1,0 +1,16 @@
+package com.hotelmgmt.domain;
+
+public class TestCustomer {
+
+	public static void main(String[] args) 
+	{
+		
+		Customer john = new Customer("john","pogan");
+		
+		Customer john1 = new Customer();
+		
+		Customer john3 = new Customer();
+	
+	}
+
+}
