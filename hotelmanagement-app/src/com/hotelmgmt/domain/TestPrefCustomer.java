@@ -1,18 +1,24 @@
 package com.hotelmgmt.domain;
 
+import java.util.Scanner;
+
+
 public class TestPrefCustomer {
 
 	public static void main(String[] args) 
 	{
-		PreferredCustomer johnRefernece = new PreferredCustomer("john","pogan",1001l);
+		System.out.println("Enter Customer1 Details");
+		PreferredCustomer johnRefernece =readCustomerDetails();
 		displayCustomerDetails(johnRefernece);
 		
-		PreferredCustomer mark = new PreferredCustomer("mark", "smith",1002l);
-		displayCustomerDetails(mark);
 		
+		System.out.println("Enter Customer2 Details");
+		 johnRefernece =readCustomerDetails();
+		displayCustomerDetails(johnRefernece);
 		
-		PreferredCustomer chris = new PreferredCustomer("chris","taylor",1003l);
-		displayCustomerDetails(chris);
+		System.out.println("Enter Customer3 Details");
+		 johnRefernece =readCustomerDetails();
+		displayCustomerDetails(johnRefernece);
 
 
 	}
@@ -25,6 +31,26 @@ public class TestPrefCustomer {
 		
 
 		
+	}
+	
+	public  static PreferredCustomer readCustomerDetails()
+	{
+		
+		
+		Scanner readInput = new Scanner(System.in);
+		System.out.println("Enter the customer First Name ");
+		String fname = readInput.next();
+		
+		System.out.println("Enter the customer Last Name ");
+		String lname = readInput.next();
+		
+		System.out.println("Enter the customer ID ");
+		Long id = readInput.nextLong();
+		
+		PreferredCustomer john = new PreferredCustomer(fname,lname,id);
+		
+		
+		return john;
 	}
 
 }

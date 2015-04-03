@@ -1,5 +1,7 @@
 package com.hotelmgmt.service;
 
+import com.hotelmgmt.domain.Customer;
+
 public abstract class CustomerService 
 {
 	
@@ -12,5 +14,6 @@ public abstract class CustomerService
 		
 	}
 	
+
 
 }

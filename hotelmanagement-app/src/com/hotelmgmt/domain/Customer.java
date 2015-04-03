@@ -14,6 +14,7 @@ package com.hotelmgmt.domain;
 		}
 		
 		
+		
 	 
 	public static String prefix = "Mr";
 	
