@@ -1,6 +1,0 @@
-package com.hotelmgmt.service;
-
-public interface CustomerServices 
-{
-
-}

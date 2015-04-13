@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.hotelmgmt.domain;
+
+/**
+ * @author srinivas_kommu
+ *
+ */
+public class CodeDocTest {
+
+	/**
+	 * 
+	 */
+	public CodeDocTest() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

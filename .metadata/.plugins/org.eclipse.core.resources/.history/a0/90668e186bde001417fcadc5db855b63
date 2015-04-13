@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package com.hotelmgmt.domain;
+
+/**
+ * This class provides informaiton about dfsjfkjdsa
+ * 
+ * @author srinivas_kommu
+ * @version 1.0
+ *
+ */
+public class CodeDocTest {
+	
+	
+	// constant value fo max marks
+	public static int MAX_MARKS = 100;
+	
+
+	/**
+	 * Constructor
+	 */
+	public CodeDocTest() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.hotelmgmt.domain.test;
+
+import java.util.Scanner;
+
+import com.hotelmgmt.domain.Customer;
+import com.hotelmgmt.service.CustomerService;
+
+public class TestCustomerArray {
+
+	public static void main(String[] args) 
+	{
+		
+		CustomerService service = new CustomerService() ;
+		
+		
+	
+	}
+		
+
+	
+
+}

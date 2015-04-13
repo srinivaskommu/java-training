@@ -1,0 +1,43 @@
+
+PART I – Introduction
+Introduction to Ruby on Rails
+Active Record Basics: Introduction to Models
+
+PART II Installation(How to install and configure Ruby, RubyGems, and Rails)
+	Ruby installation
+	Rails installation
+	MySQL installation
+
+
+PART III– Dynamic Ruby
+BAsic Ruby scripts
+Ruby Objects and Ces
+ctive Record Associations
+Validating Models
+
+
+PART IV– Rails
+MVC Architecture
+Introduction to Action Controller
+Using Action Controller: Routing/ Cookies/ Sessions/ Flash/ Filters
+Introduction to Action View
+Layouts and Components
+Action Mailer: Sending and Receiving Emails
+Migrations
+MODELS - VIEWS - Controllers - ROUTES
+logs - Javascripts & stylesheets - Plugins
+PART V – FameWorks
+RAD Rails
+Eclipse
+NetBeans
+
+
+PART VI– Testing (in Rails)
+An introduction to Testing Rails applications
+UNIT Testing , Functional Testing, Integration Testing
+
+PART VII–
+Dummy Assignments and Dummy App - Web Development
+
+PART VIII– Advanced Rails
+PART X – Advanced Coding

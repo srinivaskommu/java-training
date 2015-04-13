@@ -1,0 +1,36 @@
+The following are the assignments to submit before end of this week, these  are very basic, but i am expecting  to see some coding standards.
+
+Try to follow these the Sun Java coding standards
+(http://java.sun.com/docs/codeconv/html/CodeConvTOC.doc.html)
+
+
+Assignments
+
+1. (hint:if-else): 
+Write a java program called EvalutionService which provides a method callled 'evaluateSubjectMarks(int subjectMarks)', that will print "PASS" if the int variable "subjectMarks" is more than or equal to 50; or prints "FAIL" otherwise.
+
+Write a test java program (EvalutionServiceTest.java etc)which includes main method to test above class & method.
+
+
+2. (hint: if-else): 
+Write a java program called NumberService which provides a method callled 'evaluateNumber(int number)', that will  print "Odd Number" if the int variable “number” is odd, or “Even Number” otherwise.
+
+Write a test java program which includes main method to test above class & method.
+
+
+3). (hint : Switch stament): Enhance the above class to include 'printNumberInWord(int number)' which prints "ONE", "TWO",... , "NINE", "OTHER" if the int variable "number" is 1, 2,... , 9, or other, respectively. Use  "switch-case" statement.
+
+Create a test class to test the above
+
+
+
+
+
+
+
+
+
+scanner class to read input
+wraaper objects
+for loop, do while , while
+

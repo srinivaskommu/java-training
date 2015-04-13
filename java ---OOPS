@@ -1,0 +1,98 @@
+java ---OOPS
+
+class
+object
+abstraction
+encapsulation
+inheritance
+ java doesnt support multiple inheritence
+
+	abstract class --->
+	interfaces ---> 
+
+polymorphism
+
+
+
+	overloading
+	overriding
+
+
+
+member variables of the class--dynamic
+static variables--- class 'staic'
+access specifiers
+
+this - keyword
+super keyword
+
+java.lang.Object -- super class
+
+equals ()
+hashCode ()
+toString()
+
+--- thread related methods
+
+
+inheritence
+
+
+
+
+computeArea(int side)
+{
+	
+	display (side*1000);
+}
+
+
+
+computeArea(int a)
+{
+	
+	display (side*250);
+
+}
+
+
+
+
+for()
+while
+do while
+
+
+
+
+
+
+data types - 8 primitive data types
+
+byte
+char
+short
+int  
+long
+float
+double
+boolean false
+
+
+Wrapper classes: these will act wrapper around primtive data types
+Long
+
+auto boxing - java 5 /4
+uboxing
+
+
+int a = 10;
+
+Integer object  = a;
+
+
+
+
+
+
+

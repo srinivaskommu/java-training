@@ -1,0 +1,23 @@
+package com.hotelmgmt.domain;
+
+public class DataTypeTest {
+
+	public static void main(String[] s1) {
+		
+		
+		if(s1[0].equalsIgnoreCase("test1"))
+			System.out.println("job gets done");
+		else
+			System.out.println("job failed");
+		
+		DataType ref = new DataType();
+		System.out.println(ref);
+	
+	
+
+	
+	
+
+	}
+
+}

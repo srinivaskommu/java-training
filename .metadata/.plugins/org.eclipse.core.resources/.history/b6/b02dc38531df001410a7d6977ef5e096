@@ -1,0 +1,19 @@
+package com.hotelmgmt.domain.test;
+
+import java.util.Scanner;
+
+import com.hotelmgmt.domain.Customer;
+
+public class TestCustomerArray {
+
+	public static void main(String[] args) 
+	{
+		
+		
+	
+	}
+		
+
+	}
+
+}
