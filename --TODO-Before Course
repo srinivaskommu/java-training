@@ -1,0 +1,51 @@
+Prequisites to java training course, can be read while undergoing training as well
+
+  Procedural programming
+  DBMS concepts
+  SQL - w3 schools
+  basic html
+  Nice to have github account
+
+
+
+List of Softwares or tools to be installed before class
+jdk 8
+maven 3
+mysql database (any latest version)
+apache tomcat 8
+
+	IDE : eclipse
+	jdk 1.8 installed
+	maven installed
+	install m2eclipse -- a maven plugin for eclipse
+	junit or testng plugin
+
+databse
+	mysql databse
+	postgresssql database
+
+Application servers
+
+	tomcat 8 or 7 sever  
+	JBOSS server
+
+
+
+Try to follow these the Sun Java coding standards
+(http://java.sun.com/docs/codeconv/html/CodeConvTOC.doc.html)
+
+
+
+Download sites/Instructions
+
+follows this one for postgress, you can find from start button for postgress
+	http://www.postgresqltutorial.com/install-postgresql/
+follows this, you might need to download only server, because you already have installer.
+	http://watchdoglabs.org/data/2013/MySQL/MySQL-Installation-Windows8.pdf	
+
+
+
+
+
+
+
