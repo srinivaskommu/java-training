@@ -8,15 +8,18 @@ public class TestCustomer {
 		System.out.println("command line arguments"+args[0]);
 		
 		if(args!=null&&args.length>0){
-			Customer johnRefernece = new Customer("john","pogan");
+			Customer johnRefernece = new Customer("john","pogan",new Address());
 			displayCustomerDetails(johnRefernece);
 			
-			Customer mark = new Customer("mark", "smith");
+			Customer elise = new Customer("elise","yang",null);
+			displayCustomerDetails(johnRefernece);
+			
+			Customer mark = new Customer("mark", "smith", new Address("37 clarin", "unit 4", "LA", "CA", 90034));
 			displayCustomerDetails(mark);
 			
 			
 			
-			Customer chris = new Customer("chris","taylor");
+			Customer chris = new Customer("chris","taylor",null);
 			displayCustomerDetails(chris);
 			
 			

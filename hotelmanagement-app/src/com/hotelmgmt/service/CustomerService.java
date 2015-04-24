@@ -1,6 +1,10 @@
 package com.hotelmgmt.service;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Scanner;
+import java.util.Set;
 
 import com.hotelmgmt.domain.Customer;
 
@@ -15,6 +19,41 @@ public  class CustomerService
 		System.out.println("Burger King Terra hut, IN");  
 		
 	}
+	
+	public List getCustomerDetailsList() 
+	{
+		Customer cust1 = new Customer("john", "pogan");
+		Customer cust2 = new Customer("john", "becon");
+		Customer cust3 = new Customer("john", "taylor");
+		
+		
+		List list = new ArrayList();
+		list.add(cust1);
+		list.add(cust2);
+		list.add(cust3);
+		
+		
+		
+		return list;
+	}
+	
+	public Set getCustomerDetailsSet() 
+	{
+		Customer cust1 = new Customer("john", "pogan");
+		Customer cust2 = new Customer("john", "becon");
+		Customer cust3 = new Customer("john", "taylor");
+		
+		
+		Set list = new HashSet();
+		list.add(cust1);
+		list.add(cust2);
+		list.add(cust3);
+		
+		
+		
+		return list;
+	}
+	
 	
 	public Customer[] getAllCustomerDetails() throws Exception
 	{

@@ -1,16 +1,19 @@
 package com.hotelmgmt.domain;
 
- public class Customer {
+ public class Customer 
+ {
 	 
 		private String fName ;
 		private String lName ;
+		private Address customerAddress;
 		
 		
-		public Customer(String a ,String b)
+		public Customer(String a ,String b,Address address)
 		{
 			fName = a;
 			lName = b;
-			
+			this.customerAddress = address;
+
 		}
 		
 		
@@ -43,16 +46,24 @@ package com.hotelmgmt.domain;
 	public int hashCode()
 	{
 		
-		return 0;
+		return lName.hashCode();
 		
 	}
 	
 	public boolean equals(Object anyObject)
 	{
-		if(anyObject==null)
-		return false;
+		Customer cust = null;
+		if(anyObject==null){
+		return false;}
 		
-		else return true;
+		else {
+			cust = (Customer)anyObject;
+			if(cust.getlName().equalsIgnoreCase(this.lName))
+				return true;
+			else
+				return false;
+			
+		}
 		
 	}
 
