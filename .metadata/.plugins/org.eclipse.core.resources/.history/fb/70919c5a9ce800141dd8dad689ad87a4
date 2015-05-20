@@ -1,0 +1,5 @@
+package com.hotelmgmt.domain;
+
+public class Address {
+
+}

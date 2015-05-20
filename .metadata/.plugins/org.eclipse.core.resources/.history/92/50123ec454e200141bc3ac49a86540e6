@@ -1,0 +1,37 @@
+package com.hotelmgmt.process.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.junit.experimental.categories.Categories.ExcludeCategory;
+
+import com.hotelmgmt.process.PrfitCalculator;
+
+public class PrfitCalculatorTest 
+{
+
+	@Test
+	public void testcalculateBill() throws Exception 
+	{
+		PrfitCalculator pfc = new PrfitCalculator();
+		int bill = pfc.calculateBill(null, 3);
+		
+		assertTrue(bill>0);
+		assertEquals(600, bill);
+		
+	}
+	
+	@Test(expected =Exception.class )
+	public void testcalculateBillForNegariveNumber() throws Exception 
+	{
+		PrfitCalculator pfc = new PrfitCalculator();
+		int bill = pfc.calculateBill(null, -3);
+		
+		assertTrue(bill>0);
+		assertEquals(600, bill);
+		
+	}
+	
+	
+
+}

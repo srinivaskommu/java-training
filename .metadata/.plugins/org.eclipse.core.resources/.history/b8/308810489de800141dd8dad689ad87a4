@@ -1,0 +1,14 @@
+package com.hotelmgmt.domain;
+
+public class Address 
+{
+	private String streetName;
+	private String aptNo;
+	private String city;
+	private String state;
+	private int zip;
+	
+	
+	
+
+}

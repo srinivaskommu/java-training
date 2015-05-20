@@ -1,0 +1,16 @@
+package com.hotelmgmt.domain;
+
+public class DemoStringService {
+
+	public static void main(String[] args) 
+	{
+		String str1 = "Hello World";
+		
+		
+		//String  str1 = “Hello World”;
+		
+		//str1 = str1.substring(4);
+	
+	}
+
+}
