@@ -1,0 +1,11 @@
+package com.test.thread;
+
+public class ThreadTest {
+
+	public static void main(String[] args) {
+		new ThreadA().start();
+		
+
+	}
+
+}
