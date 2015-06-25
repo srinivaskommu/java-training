@@ -1,0 +1,10 @@
+package com.milan.app.domain;
+
+public class Student 
+{
+	private String firstName;
+	private String lastName;
+	
+	
+
+}

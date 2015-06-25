@@ -1,0 +1,30 @@
+package com.milan.app.domain;
+
+import java.sql.*;
+ 
+public class ProgramTestCompile {
+ 
+public static void main( String args[]) {
+ 
+String connectionURL = "jdbc:postgresql://localhost:5432/movies;user=java;password=samples";
+// Change the connection string according to your db, ip, username and password
+ 
+try {
+ 
+    // Load the Driver class. 
+    Class.forName("org.postgresql.Driver");
+    // If you are using any other database then load the right driver here.
+ 
+
+}
+catch (SQLException e) {
+    e.printStackTrace();
+}
+catch (Exception e) {
+    e.printStackTrace();
+}
+finally {
+  
+}
+}
+}
