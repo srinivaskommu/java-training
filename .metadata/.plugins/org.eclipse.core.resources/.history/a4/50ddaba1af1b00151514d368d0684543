@@ -1,0 +1,15 @@
+package com.milan;
+
+class Test 
+{
+	String city = "Los Angeles";
+	
+	public void displayMessage()
+	{
+		System.out.println("TEST");
+		
+	}
+
+}
+
+

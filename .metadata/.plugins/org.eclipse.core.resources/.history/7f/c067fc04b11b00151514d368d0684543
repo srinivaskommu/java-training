@@ -1,0 +1,24 @@
+package com.milan;
+
+class Test 
+{
+	static String city = "Los Angeles";
+	
+	public void displayMessage()
+	{
+		System.out.println("TEST");
+		
+	}
+	
+	
+	public static void main (String s[])
+	{
+		
+		city = "SFO";
+	}
+	
+	
+
+}
+
+

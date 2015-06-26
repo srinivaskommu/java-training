@@ -1,0 +1,14 @@
+package com.milan;
+
+public class Test 
+{
+	public void displayMessage()
+	{
+		System.out.println("TEST");
+		
+	}
+
+}
+
+Test object = new Test();
+object.displayMessage();

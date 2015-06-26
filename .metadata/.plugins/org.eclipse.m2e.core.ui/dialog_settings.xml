@@ -4,10 +4,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="milan-app"/>
 		</list>
 		<list key="name">
+			<item value="milan-app"/>
 		</list>
 		<list key="artifactId">
+			<item value="milan-app"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -68,13 +71,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="daoexample.daoexampletest"/>
 		</list>
 		<list key="groupId">
-			<item value="daoexample"/>
 		</list>
 		<list key="artifactId">
-			<item value="daoexampletest"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
