@@ -1,0 +1,42 @@
+package com.milan.domain;
+
+import java.io.FileNotFoundException;
+
+public class StudentTest {
+
+	public StudentTest() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) 
+	{
+		Student robert = new Student();
+		robert.setFirstName("robert");
+		robert.setLastName("kloss");
+		
+		Student robertsBro = new Student();
+		robertsBro.setFirstName("robert");
+		robertsBro.setLastName("kloss");
+		
+		
+		
+
+			
+		
+		
+		
+	
+		
+	
+	}
+	
+	public static Student cloneRobert(Student robert) throws CloneNotSupportedException, ObjectNullException{
+		
+		if(robert==null)
+			throw new ObjectNullException();
+		
+		Student robertlilBro = robert.clone();
+		return robertlilBro;
+	}
+
+}

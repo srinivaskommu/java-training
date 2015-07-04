@@ -1,0 +1,9 @@
+package com.milan.domain;
+
+public class Student 
+{
+
+	public Student() {
+	}
+
+}

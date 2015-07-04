@@ -1,0 +1,40 @@
+package com.milan.domain;
+
+public class StudentTest {
+
+	public StudentTest() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) 
+	{
+		Student robert = new Student();
+		robert.setFirstName("robert");
+		robert.setLastName("kloss");
+		
+		Student robertsBro = new Student();
+		robertsBro.setFirstName("robert");
+		robertsBro.setLastName("kloss");
+		
+
+			
+		try {
+			cloneRobert(robert);
+		} catch (CloneNotSupportedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	
+		
+	
+	}
+	
+	public static Student cloneRobert(Student robert) throws CloneNotSupportedException{
+		
+		Student robertlilBro = robert.clone();
+		return robertlilBro;
+	}
+
+}

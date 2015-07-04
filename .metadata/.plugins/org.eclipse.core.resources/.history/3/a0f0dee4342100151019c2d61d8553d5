@@ -1,0 +1,9 @@
+package com.milan.domain;
+
+public class CollectExample {
+
+	public CollectExample() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
