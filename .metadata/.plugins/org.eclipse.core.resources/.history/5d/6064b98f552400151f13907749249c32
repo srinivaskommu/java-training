@@ -1,0 +1,10 @@
+package com.milan.processing;
+
+public class ThreadEx extends Thread 
+{
+	public void run()
+	{
+		System.out.println("THREAD");
+	}
+
+}

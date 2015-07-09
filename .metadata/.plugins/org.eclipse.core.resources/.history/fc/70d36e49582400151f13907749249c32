@@ -1,0 +1,26 @@
+package com.milan.processing;
+
+public class RunnableEx implements Runnable  
+{
+
+	public void run()
+	{
+	 depositAmount();
+	}
+	
+	
+	public static void main(String s[])
+	{
+		System.out.println("MAIN METHOD STARTED");
+		
+		ThreadEx thread1 = new ThreadEx();
+		thread1.start();
+		
+		ThreadEx thread2 = new ThreadEx();
+		thread2.start();
+		
+		System.out.println("MAIN METHOD ENDED");
+	}
+	
+
+}

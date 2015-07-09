@@ -1,0 +1,16 @@
+package com.milan.test;
+
+public class StudentImpl 
+{
+
+	public void storeStudents(Student student)
+	{
+		
+	}
+
+	public Student retrieveStduents(){
+		return null;
+		
+	}
+
+}

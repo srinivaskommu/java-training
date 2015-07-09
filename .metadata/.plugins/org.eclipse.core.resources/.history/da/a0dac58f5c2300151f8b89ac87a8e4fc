@@ -1,0 +1,84 @@
+package com.routeone.interview;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+
+public class StoreRegister {
+	private Map<String, Item> invenory;
+	private Scanner input;
+
+	public void loadInventory(File inventoryFile) throws FileNotFoundException {
+		System.out.println(inventoryFile.exists()
+				+ inventoryFile.getAbsolutePath() + inventoryFile.canWrite());
+
+		setInvenory(new HashMap<String, Item>());
+		input = new Scanner(inventoryFile);
+
+		while (input.hasNextLine()) {
+			System.out.println();
+			loadItemIntoInventory(input.nextLine());
+		}
+
+	}
+
+	private void loadItemIntoInventory(String nextLine) {
+		String[] inputs = nextLine.split(",");
+		Item item = new Item(inputs[0], Double.parseDouble(inputs[1]),
+				inputs[2]);
+		getInvenory().put(item.getName(), item);
+	}
+
+	public Receipt checkoutOrder(List<String> itemNames) {
+		Double totalPrice = 0.0;
+		List<Item> itemObjects;
+		List<String> orderItems;
+
+		itemObjects = retrieveOrderedItems(itemNames);
+		orderItems = retrieveOrderedItemsByOrder(itemObjects);
+
+		for (Item itemObject : itemObjects.sort(Item.class)) {
+			totalPrice = totalPrice + itemObject.getPrice();
+		}
+
+		Receipt receipt = new ReceiptImpl(totalPrice, orderItems);
+
+		return receipt;
+	}
+
+	private List<String> retrieveOrderedItemsByOrder(List<Item> itemObjects) {
+		List<String> orderItems = new ArrayList<String>();
+		for (Item itemObject : itemObjects) {
+
+			orderItems.add(itemObject.getName());
+		}
+
+		return orderItems;
+	}
+
+	private List<Item> retrieveOrderedItems(List<String> itemNames) {
+		List<Item> itemObjects = new ArrayList<Item>();
+		for (String item : itemNames) {
+
+			itemObjects.add(getInvenory().get(item));
+
+		}
+		Collections.sort(itemObjects);
+		return itemObjects;
+
+	}
+
+	private Map<String, Item> getInvenory() {
+		return invenory;
+	}
+
+	private void setInvenory(Map<String, Item> invenory) {
+		this.invenory = invenory;
+	}
+}

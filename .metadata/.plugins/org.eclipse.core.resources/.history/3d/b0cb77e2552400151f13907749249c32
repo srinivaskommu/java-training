@@ -1,0 +1,19 @@
+package com.milan.processing;
+
+public class ThreadEx extends Thread 
+{
+	public void run()
+	{
+		System.out.println("THREAD");
+	}
+	
+	
+	public static void main(String s[])
+	{
+		System.out.println("MAIN METHOD STARTED");
+		ThreadEx thread1 = new ThreadEx();
+		thread1.start();
+		System.out.println("MAIN METHOD ENDED");
+	}
+
+}

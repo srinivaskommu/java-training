@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package com.milan;
+
+/**
+ * @author srinivas_kommu
+ *
+ */
+public class PersonTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		
+		System.out.println("MAIN method");
+		displayResponseFromASlowMethod();
+	
+
+
+
+	}
+
+	private static void displayResponseFromASlowMethod() {
+		
+		System.out.println("SLOW method");
+	}
+
+}

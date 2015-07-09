@@ -1,7 +1,13 @@
 eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=/Users/srinivas_kommu/eclipse/
+org.eclipse.jdt.core.classpathVariable.FINDBUGS_ANNOTATIONS=/Users/srinivas_kommu/eclipse/plugins/edu.umd.cs.findbugs.plugin.eclipse_3.0.1.20150306-5afe4d1/lib/annotations.jar
 org.eclipse.jdt.core.classpathVariable.JRE_LIB=/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar
 org.eclipse.jdt.core.classpathVariable.JRE_SRC=/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/src.zip
 org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=src
+org.eclipse.jdt.core.classpathVariable.JSR305_ANNOTATIONS=/Users/srinivas_kommu/eclipse/plugins/edu.umd.cs.findbugs.plugin.eclipse_3.0.1.20150306-5afe4d1/lib/jsr305.jar
+org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=/Users/srinivas_kommu/eclipse/plugins/org.junit_4.11.0.v201303080030/
+org.eclipse.jdt.core.classpathVariable.M2_REPO=/Users/srinivas_kommu/.m2/repository
+org.eclipse.jdt.core.classpathVariable.TESTNG_HOME=/Users/srinivas_kommu/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240
 org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
 org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
 org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.7

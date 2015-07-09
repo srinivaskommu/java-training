@@ -1,0 +1,39 @@
+package com.milan.processing;
+
+public class ThreadEx extends Thread 
+{
+	public ThreadEx(String name)
+	{
+		
+		
+	}
+	
+	
+	public void run()
+	{
+		System.out.println("THREAD STATRTED");
+		try {
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("THREAD ENDED");
+	}
+	
+	
+	public static void main(String s[])
+	{
+		System.out.println("MAIN METHOD STARTED");
+		ThreadEx thread1 = new ThreadEx("firstThread");
+		thread1.start();
+		
+		ThreadEx thread2 = new ThreadEx("secondThread");
+		thread2.start();
+		
+		ThreadEx thread3 = new ThreadEx();
+		thread3.start();
+		
+		System.out.println("MAIN METHOD ENDED");
+	}
+
+}

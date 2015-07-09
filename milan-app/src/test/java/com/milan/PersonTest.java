@@ -11,20 +11,22 @@ public class PersonTest {
 
 	/**
 	 * @param args
+	 * @throws InterruptedException 
 	 */
-	public static void main(String[] args) {
-	//	Student robert = new Student();
-	
+	public static void main(String[] args) throws InterruptedException 
+	{
+		System.out.println("MAIN method STARTED");
+		displayResponseFromASlowMethod();
+		System.out.println("MAIN method ENDED");
 
-		Professor nancy = new Professor("NAncy", 165, 135, 'F');
-		nancy.setEmployeeId("TAMU300780");
+	}
 
-		System.out.println(nancy.getName() + " details");
-		System.out.println(" Name" + nancy.getName());
-		System.out.println(" height" + nancy.getHeight());
-		System.out.println(" weight" + nancy.getWeight());
-		System.out.println(" gender" + nancy.getGender());
-
+	private static void displayResponseFromASlowMethod() throws InterruptedException 
+	{
+		System.out.println("SLOW method started");
+		Thread.sleep(10000);
+		
+		System.out.println("SLOW method ended");
 	}
 
 }

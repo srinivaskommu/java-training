@@ -1,0 +1,10 @@
+package com.milan.test;
+
+public class Student 
+{
+	private String name;
+	private String cwid;
+
+
+
+}

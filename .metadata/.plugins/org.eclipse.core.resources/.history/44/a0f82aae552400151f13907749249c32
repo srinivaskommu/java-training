@@ -1,0 +1,17 @@
+package com.milan.processing;
+
+public class ThreadEx extends Thread 
+{
+	public void run()
+	{
+		System.out.println("THREAD");
+	}
+	
+	
+	public static void main(String s[])
+	{
+		ThreadEx thread1 = new ThreadEx();
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.milan.domain.ioc;
+
+public class Person {
+
+}
