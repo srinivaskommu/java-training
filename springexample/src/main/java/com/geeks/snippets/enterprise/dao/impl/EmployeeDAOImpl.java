@@ -1,4 +1,4 @@
-package com.javacodegeeks.snippets.enterprise.dao.impl;
+package com.geeks.snippets.enterprise.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,8 +7,8 @@ import java.sql.SQLException;
 
 import javax.sql.DataSource;
 
-import com.javacodegeeks.snippets.enterprise.Employee;
-import com.javacodegeeks.snippets.enterprise.dao.EmployeeDAO;
+import com.geeks.snippets.enterprise.Employee;
+import com.geeks.snippets.enterprise.dao.EmployeeDAO;
 
 public class EmployeeDAOImpl implements EmployeeDAO
 {

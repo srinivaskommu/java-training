@@ -1,6 +1,6 @@
-package com.javacodegeeks.snippets.enterprise.dao;
+package com.geeks.snippets.enterprise.dao;
 
-import com.javacodegeeks.snippets.enterprise.Employee;
+import com.geeks.snippets.enterprise.Employee;
 
 public interface EmployeeDAO {
 

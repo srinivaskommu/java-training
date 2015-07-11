@@ -1,4 +1,4 @@
-package com.javacodegeeks.snippets.enterprise;
+package com.geeks.snippets.enterprise;
 
 public class Employee {
 	

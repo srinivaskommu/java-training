@@ -1,8 +1,8 @@
-package com.javacodegeeks.snippets.enterprise.dao;
+package com.geeks.snippets.enterprise.dao;
 
 import java.util.List;
 
-import com.javacodegeeks.snippets.enterprise.Employee;
+import com.geeks.snippets.enterprise.Employee;
 
 public interface JDBCEmployeeDAO {
 

@@ -1,4 +1,4 @@
-package com.javacodegeeks.snippets.enterprise;
+package com.geeks.snippets.enterprise;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

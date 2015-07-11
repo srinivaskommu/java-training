@@ -1,4 +1,4 @@
-package com.javacodegeeks.snippets.enterprise.dao.impl;
+package com.geeks.snippets.enterprise.dao.impl;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -12,8 +12,8 @@ import org.springframework.jdbc.core.BatchPreparedStatementSetter;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-import com.javacodegeeks.snippets.enterprise.Employee;
-import com.javacodegeeks.snippets.enterprise.dao.JDBCEmployeeDAO;
+import com.geeks.snippets.enterprise.Employee;
+import com.geeks.snippets.enterprise.dao.JDBCEmployeeDAO;
 
 public class JDBCEmployeeDAOImpl implements JDBCEmployeeDAO{
 	private DataSource dataSource;

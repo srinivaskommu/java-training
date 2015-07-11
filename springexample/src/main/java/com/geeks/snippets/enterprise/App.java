@@ -1,4 +1,4 @@
-package com.javacodegeeks.snippets.enterprise;
+package com.geeks.snippets.enterprise;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.javacodegeeks.snippets.enterprise.dao.JDBCEmployeeDAO;
+import com.geeks.snippets.enterprise.dao.JDBCEmployeeDAO;
 
 public class App {
 
