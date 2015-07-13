@@ -1,9 +1,0 @@
-package com.milan.test;
-
-public class StudentImpl {
-
-	public StudentImpl() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

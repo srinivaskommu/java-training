@@ -40,4 +40,17 @@
 <fullyQualifiedTypeName name="com.milan.test.RangeException"/>
 <fullyQualifiedTypeName name="com.milan.processing.ThreadEx"/>
 <fullyQualifiedTypeName name="com.milan.Student"/>
+<fullyQualifiedTypeName name="com.milan.domain.ioc.Person"/>
+<fullyQualifiedTypeName name="com.milan.domain.ioc.Address"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="com.isko.app.domain.Student"/>
+<fullyQualifiedTypeName name="com.milan.sym.util.MilanDataBaseException"/>
+<fullyQualifiedTypeName name="com.milan.sym.domain.Customer"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="java.sql.CallableStatement"/>
+<fullyQualifiedTypeName name="java.sql.Types"/>
 </qualifiedTypeNameHistroy>

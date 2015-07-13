@@ -1,0 +1,43 @@
+package com.isko.app.domain;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class StudentTest 
+{
+
+	@Before
+	public void setUp() throws Exception 
+	{
+		System.out.println("SETUP CALLED");
+	}
+
+	@After
+	public void tearDown() throws Exception 
+	{
+		System.out.println("TEARDOWN CALLED");
+
+	}
+
+	@Test
+	public void testGetFirstName() 
+	{
+		System.out.println("THIS IS TEST ");
+
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetFirstName() {
+		fail("Not yet implemented");
+	}
+//
+//	@Test
+//	public void testGetLastName() {
+//		fail("Not yet implemented");
+//	}
+
+}

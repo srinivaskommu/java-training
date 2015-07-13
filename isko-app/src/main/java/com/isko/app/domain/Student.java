@@ -1,10 +1,21 @@
 package com.isko.app.domain;
 
-public class Student {
+public class Student 
+{
 	private String firstName;
 	private String lastName;
+	
+	
+	
+	public Student(String f, String l)
+	{
+		firstName = f;
+		lastName = l;
+		
+	}
 
-	public String getFirstName() {
+	public String getFirstName() 
+	{
 		return firstName;
 	}
 

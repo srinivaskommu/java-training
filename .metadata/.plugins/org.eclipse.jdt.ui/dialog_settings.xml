@@ -88,6 +88,12 @@
 	</section>
 	<section name="JavaElementSearchActions">
 	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="renameSubpackages"/>
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="*" key="patterns"/>
+		<item value="false" key="updateTextualMatches"/>
+	</section>
 	<section name="DialogBounds_SuperInterfaceSelectionDialog">
 		<item value="356" key="DIALOG_WIDTH"/>
 		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
@@ -131,8 +137,8 @@
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
 			<item value="500" key="DIALOG_HEIGHT"/>
-			<item value="95" key="DIALOG_Y_ORIGIN"/>
-			<item value="325" key="DIALOG_X_ORIGIN"/>
+			<item value="86" key="DIALOG_Y_ORIGIN"/>
+			<item value="518" key="DIALOG_X_ORIGIN"/>
 		</section>
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">

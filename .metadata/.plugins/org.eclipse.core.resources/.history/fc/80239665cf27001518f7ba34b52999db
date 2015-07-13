@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.isko.app.domain;
+
+/**
+ * @author srinivas_kommu
+ *
+ */
+public class Person {
+
+}
