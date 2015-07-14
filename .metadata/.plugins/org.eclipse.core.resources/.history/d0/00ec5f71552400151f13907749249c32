@@ -1,7 +1,0 @@
-package com.milan.processing;
-
-public class ThreadEx extends Thread 
-{
-	
-
-}

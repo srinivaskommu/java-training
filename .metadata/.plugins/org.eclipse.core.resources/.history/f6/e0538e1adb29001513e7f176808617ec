@@ -1,0 +1,16 @@
+package com.milan.demo;
+
+public class Student 
+{
+	public Student(String firstName, String lastName, String cwid) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.cwid = cwid;
+	}
+	private String firstName;
+	private String lastName;
+	private String cwid;
+	Address studentAddress;
+
+}

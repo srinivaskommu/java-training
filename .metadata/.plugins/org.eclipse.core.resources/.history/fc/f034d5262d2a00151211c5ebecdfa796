@@ -1,0 +1,11 @@
+package com.isko.app.domain;
+
+public class Professor 
+{
+
+	public Professor() 
+	{
+	
+	}
+
+}
