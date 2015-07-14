@@ -9,18 +9,17 @@ import org.junit.Test;
 public class StudentTest 
 {
 	Student john;
+	Student chris;
+	
+	Integer subjectMarks;
+	boolean passOrFail;
+	Boolean isStudentPass;
 
 	@Before
 	public void setUp() throws Exception 
 	{
-		john = new Student("john", "moody");
-
-	}
-
-	@After
-	public void tearDown() throws Exception 
-	{
-
+		john = Student.getInstance("john", "moody");
+		chris = Student.getInstance("chris", "robert");
 
 	}
 
@@ -30,6 +29,12 @@ public class StudentTest
 		assertNotNull(john);
 		assertEquals("john", john.getFirstName());
 		assertEquals("moody", john.getLastName());
+		assertEquals("UTD", Student.schoolName);
+		
+		
+		assertEquals(false, passOrFail);
+		assertEquals(null, isStudentPass);
+		
 	}
 
 

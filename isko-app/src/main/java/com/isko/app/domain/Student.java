@@ -2,16 +2,19 @@ package com.isko.app.domain;
 
 public class Student 
 {
+	static String schoolName = "UTD";
 	private String firstName;
 	private String lastName;
-	
-	
-	
-	public Student(String f, String l)
+	private Student(String f, String l)
 	{
 		firstName = f;
 		lastName = l;
 		
+	}
+	
+	public static Student getInstance(String f, String l)
+	{
+		return new Student(f,l);
 	}
 
 	public String getFirstName() 
@@ -31,4 +34,7 @@ public class Student
 		this.lastName = lastName;
 	}
 
+	
+	
+	
 }
