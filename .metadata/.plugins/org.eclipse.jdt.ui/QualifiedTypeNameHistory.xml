@@ -31,7 +31,6 @@
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="com.milan.test.Student"/>
 <fullyQualifiedTypeName name="com.milan.test.StudentImpl"/>
-<fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
@@ -55,4 +54,8 @@
 <fullyQualifiedTypeName name="com.isko.app.domain.Student"/>
 <fullyQualifiedTypeName name="com.milan.demo.Student"/>
 <fullyQualifiedTypeName name="com.milan.demo.Address"/>
+<fullyQualifiedTypeName name="com.isko.app.domain.Professor"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.isko.app.exceptions.IskoNotSupportedFileExtn"/>
 </qualifiedTypeNameHistroy>

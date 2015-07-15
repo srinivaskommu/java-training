@@ -1,0 +1,54 @@
+package com.isko.app.domain;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class CommnadLineTest {
+
+	public static void main(String[] args) 
+	{
+		lookForAFile();
+		try 
+		{
+			System.out.println("HELLO WORLD " + args[1]);
+			
+		
+		}
+		catch (ArrayIndexOutOfBoundsException e)
+		{
+
+			System.out
+					.println("YOU ARE ACCESSING ELEMENT WHICH IS NOT IN ARRAY RANGE"
+							+ e.getMessage());
+
+		}
+		finally 
+		{
+			System.out.println(" YOU CAN ADD MORE ELEMENTS TO ARRAY");
+			
+		}
+		
+
+		System.out.println("JAVA HAS MANY JOBS");
+		System.out.println("LARGE COMMUNITY");
+		
+		
+		lookForAFile();
+
+	}
+
+	private static void lookForAFile() 
+	{
+		try {
+			FileInputStream is = new FileInputStream(new File("abc.txt"));
+		} catch (FileNotFoundException e) 
+		{
+			System.out.println("exception"+e.getMessage());
+		
+		}
+	
+		
+	}
+
+}
