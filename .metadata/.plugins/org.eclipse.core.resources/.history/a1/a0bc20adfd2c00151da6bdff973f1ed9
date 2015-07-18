@@ -1,0 +1,55 @@
+/**
+ * 
+ */
+package com.isko.app.util.collections;
+
+import java.util.Collection;
+import java.util.List;
+import java.util.Scanner;
+
+import com.isko.app.domain.Student;
+
+/**
+ * @author srinivas_kommu
+ *	//to store elements in run time without worryin abou the size of the array.
+ */
+public class StudentCollection {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		
+		
+		List<String> name=  null;//new String[10];//--- fixed sized
+		prices.add(100.0);
+		
+//		System.out.println("Student Colleciton Software");
+//		Scanner input = new Scanner(System.in);
+//		String name = "";
+//		String isStudentsAvailable;
+//		int i = 0;
+//		do {
+//			System.out.println("Enter Name of Student");
+//			name = input.next();
+//			names[i] = name;
+//			i++;
+//			
+//			System.out.println("Did you find any more students..??? enter 'y'..");
+//			
+//			isStudentsAvailable = input.next();
+//			
+//		}while(isStudentsAvailable.equalsIgnoreCase("Y"));
+
+		
+		
+	
+		
+		
+		
+
+	
+	}
+
+}

@@ -12,4 +12,7 @@
 <typeInfo handle="=milan-app/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_45.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.sql(SQLException.class[SQLException" modifiers="33" timestamp="1428689516000"/>
 <typeInfo handle="=hotelmanagement-app/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_45.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.lang(ArrayIndexOutOfBoundsException.class[ArrayIndexOutOfBoundsException" modifiers="33" timestamp="1428689516000"/>
 <typeInfo handle="=isko-app/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_45.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.lang(Throwable.class[Throwable" modifiers="33" timestamp="1428689516000"/>
+<typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.service{CustomerService.java[CustomerService" modifiers="513" timestamp="1437018499000"/>
+<typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.domain{Customer.java[Customer" modifiers="1" timestamp="1436672153000"/>
+<typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.domain{CustomerDaoJDBCImpl.java[CustomerDaoJDBCImpl" modifiers="1" timestamp="1436673822000"/>
 </typeInfoHistroy>

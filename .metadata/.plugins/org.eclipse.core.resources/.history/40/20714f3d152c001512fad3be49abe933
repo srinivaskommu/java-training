@@ -1,0 +1,12 @@
+package com.milan.sym.config;
+
+public class MilanConfig 
+{
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

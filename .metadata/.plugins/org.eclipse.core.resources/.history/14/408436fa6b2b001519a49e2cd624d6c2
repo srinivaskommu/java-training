@@ -1,0 +1,14 @@
+package com.milan.sym.service;
+
+import com.milan.sym.domain.Customer;
+
+public class CustomerServiceImpl implements CustomerService 
+{
+
+	public void saveCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}

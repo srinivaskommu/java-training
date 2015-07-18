@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package com.milan.sym.service;
+
+/**
+ * @author srinivas_kommu
+ *
+ */
+public interface CustomerService 
+{
+	void saveCustomer(Customer customer);
+
+}

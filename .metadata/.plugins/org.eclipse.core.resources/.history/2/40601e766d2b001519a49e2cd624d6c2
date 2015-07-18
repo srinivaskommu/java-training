@@ -1,0 +1,27 @@
+package com.milan.sym.service;
+
+import com.milan.sym.domain.Customer;
+import com.milan.sym.domain.CustomerDAO;
+import com.milan.sym.domain.CustomerDaoJDBCImpl;
+
+public class CustomerServiceImpl implements CustomerService 
+{
+	//@Autowired
+	CustomerDAO customerDao;
+	
+
+	public CustomerServiceImpl() 
+	{
+		
+		
+	}
+
+	public void saveCustomer(Customer customer) 
+	{
+		customerDao.createCustomer(customer);
+
+	}
+
+
+
+}

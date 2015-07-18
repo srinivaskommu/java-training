@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+package com.isko.app.util.collections;
+
+import java.util.Collection;
+
+/**
+ * @author srinivas_kommu
+ *	//to store elements in run time without worryin abou the size of the array.
+ */
+public class StudentCollection {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		
+		Collection ex = null;
+		
+		ex.add("srini");
+		ex.add("robert");
+		
+
+		
+		
+	
+		
+		
+		
+
+	
+	}
+
+}

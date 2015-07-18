@@ -8,15 +8,18 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.milan.sym.util.MilanDataBaseException;
 
+
 public class CustomerDaoJDBCImplTest {
+	@Autowired
 	CustomerDAO customerDAO;
 
 	@Before
 	public void setUp() throws Exception {
-		customerDAO = new CustomerDaoJDBCImpl("", "", "");
+		//customerDAO = new CustomerDaoJDBCImpl("", "", "");
 	}
 
 	@After

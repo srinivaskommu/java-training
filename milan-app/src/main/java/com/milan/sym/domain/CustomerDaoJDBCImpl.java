@@ -46,29 +46,7 @@ public class CustomerDaoJDBCImpl implements CustomerDAO
 
 	public Customer createCustomer(Customer customer) throws MilanDataBaseException
 	{
-		//statemnt --> execute once
-		//preparestatement---> executes a precompiled query many time, it allows us to pass the parameters
-		//callable statement--call stored procedure/function in database
-		
-		try {
-			csStatement = this.conncetion.prepareCall("call add_customer(?,?,?)");
-			csStatement.setString(1, customer.getName());
-			csStatement.setBoolean(2, customer.isMember());
-			csStatement.setString(3, customer.getMemberType());
-			
-			csStatement.registerOutParameter(1, Types.BOOLEAN);
-			
-			psStatement.executeQuery();
-			
-			psStatement.close();
-			this.conncetion.close();
-			
-		} catch (SQLException e) {
-			throw new MilanDataBaseException(e.getMessage());
-		}
-		
-
-		return customer;
+		return null;
 		
 	}
 
@@ -79,11 +57,18 @@ public class CustomerDaoJDBCImpl implements CustomerDAO
 
 	public void findCustimerById(long id) {
 		
+	
+		
 		
 	}
 
 	public void findCustomerByName(String name) {
 		
+	String selectQuery = "SELCT cus where cust= ?"
+				
+				ps = 
+				ps.setString(1, name);
+	ps.execute();
 		
 	}
 

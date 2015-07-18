@@ -1,0 +1,22 @@
+package com.isko.app.util.collections;
+
+import java.util.Scanner;
+
+public class StudentCollections 
+{
+
+	public static void main(String[] args) 
+	{
+		
+		String names[] =  new String[10];
+		System.out.println("Student Colleciton Software");
+		Scanner input = new Scanner(System.in);
+		boolean isStudentsAvailable;
+	
+		
+		
+		
+
+	}
+
+}

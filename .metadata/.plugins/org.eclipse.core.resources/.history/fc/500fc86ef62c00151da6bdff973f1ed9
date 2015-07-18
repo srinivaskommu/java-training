@@ -1,0 +1,16 @@
+package com.isko.app.util.collections;
+
+public class StudentCollections 
+{
+
+	public static void main(String[] args) 
+	{
+		
+		String names[] =  new String[10];
+		
+		
+		
+
+	}
+
+}
