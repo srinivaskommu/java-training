@@ -16,7 +16,7 @@ public class ProfessorTest
 	public void setUp() throws Exception 
 	{
 		
-		nancy = new Professor("100","nancy", "cole",'F');
+		nancy = new Professor("100","nancy                      ", "cole",'F');
 		 robert = new Professor("101","robert", "cole", 'M');
 		 robertJr = new Professor("102","robert", "cole", 'M');
 	}
@@ -28,16 +28,19 @@ public class ProfessorTest
 	@Test
 	public void testProfessor() 
 	{
-		System.out.println(nancy.hashCode());
-		System.out.println(robert.hashCode());
-		System.out.println(robertJr.hashCode());
-		
-		if(robert.hashCode() == robertJr.hashCode())
-		{
-			System.out.println("BOTH ARE EQUAL");
-		}else {
-			System.out.println("BOTH ARE NOT EQUAL");
-		}
+		System.out.println(nancy.getFirstName());
+		System.out.println(nancy.getFirstName());
+//		
+//		System.out.println(nancy.hashCode());
+//		System.out.println(robert.hashCode());
+//		System.out.println(robertJr.hashCode());
+//		
+//		if(robert.hashCode() == robertJr.hashCode())
+//		{
+//			System.out.println("BOTH ARE EQUAL");
+//		}else {
+//			System.out.println("BOTH ARE NOT EQUAL");
+//		}
 		
 		
 	}
