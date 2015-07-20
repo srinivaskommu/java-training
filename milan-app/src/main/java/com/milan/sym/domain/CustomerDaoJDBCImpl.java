@@ -64,11 +64,11 @@ public class CustomerDaoJDBCImpl implements CustomerDAO
 
 	public void findCustomerByName(String name) {
 		
-	String selectQuery = "SELCT cus where cust= ?"
-				
-				ps = 
-				ps.setString(1, name);
-	ps.execute();
+//	String selectQuery = "SELCT cus where cust= ?"
+//				
+//				ps = 
+//				ps.setString(1, name);
+//	ps.execute();
 		
 	}
 

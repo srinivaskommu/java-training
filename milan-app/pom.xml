@@ -6,10 +6,17 @@
   <name>milan-app</name>
   <description>milan-app</description>
   <dependencies>
+  
   <dependency>
 	<groupId>postgresql</groupId>
 	<artifactId>postgresql</artifactId>
 	<version>9.1-901.jdbc4</version>
+</dependency>
+
+<dependency>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-context</artifactId>
+	<version>4.1.7.RELEASE</version>
 </dependency>
 
 

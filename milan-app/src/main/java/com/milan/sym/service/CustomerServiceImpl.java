@@ -1,5 +1,7 @@
 package com.milan.sym.service;
 
+import java.sql.SQLException;
+
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.milan.sym.domain.Customer;
@@ -9,14 +11,13 @@ import com.milan.sym.util.MilanDataBaseException;
 
 public class CustomerServiceImpl implements CustomerService 
 {
-//	@Autowired
+
 	CustomerDAO customerDao;
 	
 
-	public CustomerServiceImpl() 
+	public CustomerServiceImpl(CustomerDAO customerDao) throws ClassNotFoundException, SQLException 
 	{
-		
-		
+		this.customerDao = customerDao;
 	}
 
 	public void saveCustomer(Customer customer) throws MilanDataBaseException 
