@@ -11,13 +11,14 @@ import com.milan.sym.util.MilanDataBaseException;
 
 public class CustomerServiceImpl implements CustomerService 
 {
-
+	
+	@Autowired(required=true)
 	CustomerDAO customerDao;
 	
 
-	public CustomerServiceImpl(CustomerDAO customerDao) throws ClassNotFoundException, SQLException 
+	public CustomerServiceImpl() throws ClassNotFoundException, SQLException 
 	{
-		this.customerDao = customerDao;
+		
 	}
 
 	public void saveCustomer(Customer customer) throws MilanDataBaseException 

@@ -31,6 +31,7 @@
 	    <property name="isMember" value ="true"></property>
 	    <property name="memberType" value ="gold"></property>
 	</bean>  
+	
 	<bean id="customerService" class = "com.milan.sym.service.CustomerServiceImpl" >
 	    <constructor-arg  index="0" ref = "customerDao"/>
 	</bean>

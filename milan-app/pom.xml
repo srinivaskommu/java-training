@@ -6,7 +6,15 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>milan-app</name>
 	<description>milan-app</description>
+	<packaging>war</packaging>
+
+
 	<dependencies>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+		</dependency>
 
 		<dependency>
 			<groupId>postgresql</groupId>
@@ -30,6 +38,7 @@
 
 	</dependencies>
 	<build>
+		<finalName>milan-app</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
@@ -38,7 +47,17 @@
 					<attachClasses>true</attachClasses>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.3-SNAPSHOT</version>
+				<configuration>
+					<url>http://www.mydomain.com:1234/mymanager</url>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
+
+
 
 </project>

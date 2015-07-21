@@ -38,8 +38,8 @@ public class CustomerDaoJDBCImpl implements CustomerDAO
 	public CustomerDaoJDBCImpl(String dbName,String userName, String password) 
 			throws ClassNotFoundException, SQLException
 	{
-		Class.forName(JDBC_DRIVER);
-		this.conncetion = DriverManager.getConnection(DB_URL+dbName,userName,userName);
+//		Class.forName(JDBC_DRIVER);
+//		this.conncetion = DriverManager.getConnection(DB_URL+dbName,userName,userName);
 		
 	}
 	
