@@ -10,7 +10,11 @@ public class Test {
 			byte b[] = s.getBytes();// converting string into byte array
 			fout.write(b);
 			fout.close();
-			System.out.println("success...");
+			boolean regular = true;
+			if(regular)
+				System.out.println("success...");
+			else
+				System.out.println("success...");
 		} catch (Exception e) {
 			System.out.println(e);
 		}

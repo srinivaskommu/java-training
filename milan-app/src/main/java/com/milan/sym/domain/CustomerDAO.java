@@ -1,6 +1,7 @@
 package com.milan.sym.domain;
 
 import java.sql.SQLException;
+import java.util.List;
 
 import com.milan.sym.util.MilanDataBaseException;
 
@@ -11,6 +12,6 @@ public interface CustomerDAO
 	void findCustimerById(long id);
 	void findCustomerByName(String name);
 	void deleteCustomer(Customer customer);
-	
+	List<Customer> findAllCustomers();
 
 }

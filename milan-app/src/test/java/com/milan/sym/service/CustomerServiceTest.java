@@ -32,8 +32,8 @@ public class CustomerServiceTest
 	public void testSaveCustomer() throws BeansException, ClassNotFoundException, SQLException 
 	
 	{
-		CustomerDAO customerDAO= (CustomerDAO)ctx.getBean("customerDao");
-		//robert =(Customer) ctx.getBean("robert");
+//		CustomerDAO customerDAO= (CustomerDAO)ctx.getBean("customerDao");
+		robert =(Customer) ctx.getBean("robert");
 		service = (CustomerService)ctx.getBean("customerService");
 		service.saveCustomer(robert);
 		

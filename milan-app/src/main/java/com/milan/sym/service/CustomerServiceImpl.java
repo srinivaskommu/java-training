@@ -1,6 +1,7 @@
 package com.milan.sym.service;
 
 import java.sql.SQLException;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -23,7 +24,15 @@ public class CustomerServiceImpl implements CustomerService
 
 	public void saveCustomer(Customer customer) throws MilanDataBaseException 
 	{
+
+		
 		customerDao.createCustomer(customer);
+
+	}
+
+	public List<Customer> loadAllCustomers() 
+	{
+		return customerDao.findAllCustomers();
 
 	}
 

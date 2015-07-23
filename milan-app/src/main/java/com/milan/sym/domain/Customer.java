@@ -3,7 +3,13 @@ package com.milan.sym.domain;
 public class Customer 
 {
 	private String name;
-	private boolean isMember;
+	private String isAMember;
+	public String getIsAMember() {
+		return isAMember;
+	}
+	public void setIsAMember(String isAMember) {
+		this.isAMember = isAMember;
+	}
 	private String memberType;
 	
 	public String getName() {
@@ -12,18 +18,15 @@ public class Customer
 	public void setName(String name) {
 		this.name = name;
 	}
-	public boolean isMember() {
-		return isMember;
-	}
-	public void setMember(boolean isMember) {
-		this.isMember = isMember;
-	}
+	
 	public String getMemberType() {
 		return memberType;
 	}
 	public void setMemberType(String memberType) {
 		this.memberType = memberType;
 	}
+
+	
 
 
 }

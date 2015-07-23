@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.Types;
+import java.util.List;
 
 import com.milan.sym.util.MilanDataBaseException;
 
@@ -75,6 +76,18 @@ public class CustomerDaoJDBCImpl implements CustomerDAO
 	public void deleteCustomer(Customer customer) {
 		
 		
+	}
+
+
+	public List<Customer> findAllCustomers() 
+	{
+		//statement
+		//fire--state.exe
+		//result set
+		//close
+		
+		
+		return null;
 	}
 
 }
