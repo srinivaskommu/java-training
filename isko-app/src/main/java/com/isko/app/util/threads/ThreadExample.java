@@ -1,5 +1,8 @@
 package com.isko.app.util.threads;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 public class ThreadExample {
 	private int a;
 	private int b;
@@ -10,24 +13,21 @@ public class ThreadExample {
 
 	}
 
-
-
-
-	public static void main(String[] args) throws InterruptedException 
-	{
+	public static void main(String[] args) throws InterruptedException {
 		System.out.println("IAM IN MAIN METHOD");
-		ThreadExample ex = new ThreadExample(20, 10);
-
-		System.out.println("STARTING SEPARATE THREAD FOR SUM");
-		CalcExThread thread = new CalcExThread(20, 10);
-		thread.start();
-		
 
 		System.out.println("STARTING SEPARATE THREAD FOR SUB");
 		CalcExImpl thread2 = new CalcExImpl(20, 10);
-		Thread a = new Thread(thread2);
-		a.start();
-		
+
+		ExecutorService executor = Executors.newFixedThreadPool(3);
+
+		for (int i = 0; i < 5; i++) {
+			executor.execute(thread2);
+		}
+		executor.shutdown();
+
+
+
 		System.out.println("MAIN COMPLETED");
 
 	}
