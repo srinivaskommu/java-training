@@ -16,6 +16,13 @@ public class CustomerServiceImpl implements CustomerService
 	@Autowired(required=true)
 	CustomerDAO customerDao;
 	
+//	@Autowired(required=true)
+//	CustomerDAO customerDao;
+//	
+//	
+//	@Autowired(required=true)
+//	CustomerDAO customerDao;
+	
 
 	public CustomerServiceImpl() throws ClassNotFoundException, SQLException 
 	{
@@ -27,6 +34,14 @@ public class CustomerServiceImpl implements CustomerService
 
 		
 		customerDao.createCustomer(customer);
+		
+		///
+		//addresdao.create(customer.getAddress())
+		
+		
+		
+		///visitdao.add
+		
 
 	}
 

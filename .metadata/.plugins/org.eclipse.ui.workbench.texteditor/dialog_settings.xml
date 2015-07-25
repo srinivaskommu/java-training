@@ -2,18 +2,23 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="CustomerServlet" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="CustomerServlet"/>
+			<item value="com.webapp"/>
+			<item value="customerService"/>
+			<item value="customerDao"/>
 			<item value="// TODO Auto-generated constructor stub"/>
 			<item value="// TODO Auto-generated method stub"/>
 			<item value="&#x09;// TODO Auto-generated method stub"/>
 			<item value="FirstExample"/>
 		</list>
 		<list key="replacehistory">
+			<item value="com.milan.sym.web"/>
 			<item value=""/>
 			<item value="EmployeeDao"/>
 		</list>
@@ -22,7 +27,7 @@
 		<item value="265" key="DIALOG_WIDTH"/>
 		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
-		<item value="162" key="DIALOG_Y_ORIGIN"/>
-		<item value="493" key="DIALOG_X_ORIGIN"/>
+		<item value="143" key="DIALOG_Y_ORIGIN"/>
+		<item value="706" key="DIALOG_X_ORIGIN"/>
 	</section>
 </section>

@@ -1,0 +1,33 @@
+package com.isko.app.domain;
+
+import static org.junit.Assert.*;
+
+import java.util.Map;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class MapExampleTest 
+{
+	
+	Map cityStudentsMap;
+
+	@Before
+	public void setUp() throws Exception 
+	{
+		
+	}
+
+	@Test
+	public void check() 
+	{
+		
+		
+	}
+	
+	
+	
+
+
+
+}

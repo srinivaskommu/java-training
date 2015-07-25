@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=hotelmanagement-app/src&lt;com.hotelmgmt.domain{DataTypeTest.java[DataTypeTest" modifiers="1" timestamp="1428634743000"/>
 <typeInfo handle="=milan-app/src\/main\/java&lt;com.milan{Person.java[Person" modifiers="1" timestamp="1435293644000"/>
 <typeInfo handle="=milan-app/src\/main\/java&lt;com.milan{MarksProcessor.java[MarksProcessor" modifiers="513" timestamp="1435295299000"/>
 <typeInfo handle="=milan-app/src\/main\/java&lt;com.milan{GradMarksProcessor.java[GradMarksProcessor" modifiers="1025" timestamp="1435295313000"/>
 <typeInfo handle="=milan-app/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_45.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1428689516000"/>
-<typeInfo handle="=milan-app/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_45.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.lang(Thread.class[Thread" modifiers="33" timestamp="1428689516000"/>
 <typeInfo handle="=milan-app/src\/main\/java&lt;com.milan{Professor.java[Professor" modifiers="1" timestamp="1435294558000"/>
-<typeInfo handle="=milan-app/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_45.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.lang(Runnable.class[Runnable" modifiers="1537" timestamp="1428689516000"/>
-<typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.domain{CustomerDAO.java[CustomerDAO" modifiers="513" timestamp="1436672788000"/>
+<typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.domain{CustomerDAO.java[CustomerDAO" modifiers="513" timestamp="1437622964000"/>
 <typeInfo handle="=milan-app/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_45.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.sql(SQLException.class[SQLException" modifiers="33" timestamp="1428689516000"/>
-<typeInfo handle="=hotelmanagement-app/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_45.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.lang(ArrayIndexOutOfBoundsException.class[ArrayIndexOutOfBoundsException" modifiers="33" timestamp="1428689516000"/>
 <typeInfo handle="=isko-app/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_45.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.lang(Throwable.class[Throwable" modifiers="33" timestamp="1428689516000"/>
-<typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.service{CustomerService.java[CustomerService" modifiers="513" timestamp="1437018499000"/>
-<typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.domain{Customer.java[Customer" modifiers="1" timestamp="1436672153000"/>
-<typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.domain{CustomerDaoJDBCImpl.java[CustomerDaoJDBCImpl" modifiers="1" timestamp="1436673822000"/>
+<typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.service{CustomerService.java[CustomerService" modifiers="513" timestamp="1437622906000"/>
+<typeInfo handle="=milan-app/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_45.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.lang(Thread.class[Thread" modifiers="33" timestamp="1428689516000"/>
+<typeInfo handle="=milan-app/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_45.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.lang(Runnable.class[Runnable" modifiers="1537" timestamp="1428689516000"/>
+<typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.domain{Customer.java[Customer" modifiers="1" timestamp="1437799118000"/>
+<typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.service{CustomerServiceImpl.java[CustomerServiceImpl" modifiers="1" timestamp="1437800367000"/>
+<typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.domain{CustomerDaoJDBCImpl.java[CustomerDaoJDBCImpl" modifiers="1" timestamp="1437800391000"/>
 </typeInfoHistroy>

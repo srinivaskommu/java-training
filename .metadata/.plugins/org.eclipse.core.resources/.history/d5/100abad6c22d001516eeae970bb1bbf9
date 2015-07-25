@@ -1,0 +1,38 @@
+package com.milan.sym.service;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import com.milan.sym.domain.Customer;
+import com.milan.sym.util.MilanDataBaseException;
+
+public class CustomerServiceTest 
+{
+	CustomerService service;
+	Customer robert;
+
+	@Before
+	public void setUp() throws Exception 
+	{
+		service = new CustomerServiceImpl();
+		robert = new Customer();
+		robert.setName("ROBERT DOW");
+		robert.setMember(true);
+		robert.setMemberType("PREMIUM");
+
+	}
+
+
+
+	@Test
+	public void testSaveCustomer() throws MilanDataBaseException 
+	
+	{
+		service.saveCustomer(robert);
+		
+	}
+
+}

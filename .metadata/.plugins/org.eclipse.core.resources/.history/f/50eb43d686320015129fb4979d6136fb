@@ -1,0 +1,21 @@
+package com.milan.sym.domain;
+
+import java.util.List;
+
+import com.milan.domain.ioc.Address;
+
+public class Customer 
+{
+	private String firstName;
+	private String lastName;
+	private String isAMember;
+	private String memberType;
+	Address address;
+	List<Visitor> visits;
+	
+	
+
+	
+
+
+}

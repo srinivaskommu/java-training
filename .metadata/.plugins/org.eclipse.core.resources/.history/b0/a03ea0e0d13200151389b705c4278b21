@@ -1,0 +1,92 @@
+package com.isko.app.service;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+
+public class PhoneDirectoryService {
+
+	public static void main(String[] args) 
+	{
+
+		Scanner sc = new Scanner(System.in);
+
+		String stat = "Y";
+
+		Map<String, List<String>> phoneDirectory = new HashMap<String, List<String>>();
+
+		do {
+
+			readValues(phoneDirectory);
+
+			System.out.println("Do you want to continue enter more customers (eithr Y/N)");
+
+			stat = sc.nextLine();
+
+		} while (stat.equalsIgnoreCase("y") && !stat.equalsIgnoreCase("n"));
+
+//		List<String> num = phoneDirectory.get("navya");
+//
+//		System.out.println("The phone number of the requested customer is: "
+//				+ num);
+//
+//		num.set(0, "899080");
+//
+//		System.out.println("The phone number is changed to: " + num);
+		
+		System.out.println("Phon Directory");
+		
+		
+		for(String name :phoneDirectory.keySet())
+		{
+			System.err.println(" NAME " + name);
+			
+			for(String phoneNumber:phoneDirectory.get(name))
+			{
+				System.err.println(" phoneNumber " + phoneNumber);
+				
+			}
+			
+		}
+		
+
+	}
+
+	private static void readValues(Map<String, List<String>> phoneDirectory) 
+	{
+
+		Scanner sc = new Scanner(System.in);
+
+		String name;
+
+		String phoneNumber;
+
+		List<String> phoneNumberlist = new ArrayList<String>();
+
+		System.err.println("Enter Customer Name");
+
+		name = sc.next();
+		String stat;
+		
+		do {
+			System.err.println("Enter Customer Phone  Number");
+
+			phoneNumber = sc.next();
+
+			phoneNumberlist.add(phoneNumber);
+
+
+			System.err.println("Do you want to continue enter phone numbers for " +name+"(eithr Y/N)");
+
+			stat = sc.next();
+
+		} while (stat.equalsIgnoreCase("y") && !stat.equalsIgnoreCase("n"));
+
+
+		phoneDirectory.put(name, phoneNumberlist);
+
+	}
+
+}

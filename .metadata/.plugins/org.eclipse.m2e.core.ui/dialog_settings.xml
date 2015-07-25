@@ -4,6 +4,8 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="testq"/>
+			<item value="test1"/>
 			<item value="isko.com.app"/>
 			<item value="com.isko.app"/>
 			<item value="milan-app"/>
@@ -13,6 +15,8 @@
 			<item value="milan-app"/>
 		</list>
 		<list key="artifactId">
+			<item value="testq"/>
+			<item value="test1"/>
 			<item value="isko-app"/>
 			<item value="milan-app"/>
 		</list>
@@ -64,8 +68,9 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
-			<item value="/Users/srinivas_kommu/java training/isko-app"/>
+			<item value="/Users/srinivas_kommu/java training/milan-app"/>
 			<item value="/Users/srinivas_kommu/java training"/>
+			<item value="/Users/srinivas_kommu/java training/isko-app"/>
 			<item value="/Users/srinivas_kommu/java training/hotelmanagement-app"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -78,10 +83,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="sdzv"/>
+			<item value="sdzv.vcxvcxvcx"/>
 		</list>
 		<list key="groupId">
+			<item value="sdzv"/>
 		</list>
 		<list key="artifactId">
+			<item value="vcxvcxvcx"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

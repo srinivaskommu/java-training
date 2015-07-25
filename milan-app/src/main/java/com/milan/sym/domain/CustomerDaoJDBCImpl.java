@@ -24,15 +24,7 @@ public class CustomerDaoJDBCImpl implements CustomerDAO
 	static final String DB_URL = "jdbc:postgresql://localhost/";
 	String isertCustomer = "INSERT INTO customer (customer_name, is_member, member_type) VALUES (?, ?, ?)";
 
-	/*
-	CREATE OR REPLACE PROCEDURE add_customer
-	(name VARCHAR(70), isMember boolean, memberType VARCHAR(50)) RETURNS void AS 
-	$$ BEGIN 
-	INSERT INTO customer (customer_name, is_member, member_type) VALUES (name, isMember, memberType);
-	
-	RETURNS insertedOrNot BOOLEAN;
-	END;
-	*/
+
 	
 	
 	

@@ -1,0 +1,26 @@
+package com.isko.app.util.stringutils;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class StringHandlingTest {
+
+	String example;
+	
+	@Before
+	public void setUp() throws Exception 
+	{
+		example = "JAVA CLASS     ";
+		
+	}
+
+	@Test
+	public void testMain() 
+	{
+		assertEquals(10, example.length());
+		
+	}
+
+}

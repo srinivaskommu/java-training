@@ -1,9 +1,0 @@
-package com.isko.app.domain;
-
-public class Student 
-{
-	private String firstName;
-	private String firstName;
-	
-
-}

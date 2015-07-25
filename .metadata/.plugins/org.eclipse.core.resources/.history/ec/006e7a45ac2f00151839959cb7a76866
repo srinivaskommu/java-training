@@ -1,0 +1,16 @@
+package com.isko.app.util.threads;
+
+public class CalcExImpl implements Runnable 
+{
+	public CalcExImpl()
+	{
+		
+	}
+
+	public void run() 
+	{
+	
+		
+	}
+
+}

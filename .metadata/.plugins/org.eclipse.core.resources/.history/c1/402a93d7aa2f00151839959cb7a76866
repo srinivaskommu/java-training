@@ -1,0 +1,45 @@
+package com.isko.app.util.threads;
+
+public class CalcExThread extends Thread {
+
+	public CalcExThread() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public CalcExThread(Runnable target) {
+		super(target);
+		// TODO Auto-generated constructor stub
+	}
+
+	public CalcExThread(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+
+	public CalcExThread(ThreadGroup group, Runnable target) {
+		super(group, target);
+		// TODO Auto-generated constructor stub
+	}
+
+	public CalcExThread(ThreadGroup group, String name) {
+		super(group, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	public CalcExThread(Runnable target, String name) {
+		super(target, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	public CalcExThread(ThreadGroup group, Runnable target, String name) {
+		super(group, target, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	public CalcExThread(ThreadGroup group, Runnable target, String name,
+			long stackSize) {
+		super(group, target, name, stackSize);
+		// TODO Auto-generated constructor stub
+	}
+
+}

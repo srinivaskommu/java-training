@@ -1,0 +1,16 @@
+1437426732122	Move 'web.xml' to 'WEB-INF'
+1437438106797	Move 'index.html' to 'WEB-INF'
+1437456769129	Delete element
+1437617727605	Move 'web.xml' to 'webapp'
+1437617735460	Move 'web.xml' to 'WEB-INF'
+1437617740193	Move 'index.html' to 'webapp'
+1437617916087	Move file
+1437617920969	Move compilation units
+1437618233523	Move 'web.xml' to 'webapp'
+1437618240410	Move 'web.xml' to 'WEB-INF'
+1437775416313	Rename type 'HomeServlet'
+1437775659349	Rename resource 'Home.jsp'
+1437775677327	Rename resource 'Registration.jsp'
+1437775712927	Rename resource 'Welcome.jsp'
+1437775791427	Rename resource 'listViewCustomer.jsp'
+1437799040669	Rename type 'Visitor'

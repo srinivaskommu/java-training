@@ -1,0 +1,59 @@
+package com.isko.app.domain;
+
+import static org.junit.Assert.*;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class StudentTest 
+{
+	Student john;
+	Student chris;
+	
+	Integer subjectMarks;
+	boolean passOrFail;
+	Boolean isStudentPass;
+	Set<Student> setOfStudents;
+
+	@Before
+	public void setUp() throws Exception 
+	{
+		john = Student.getInstance("john", "moody");
+		chris = Student.getInstance("chris", "robert");
+		
+		setOfStudents = new HashSet<Student>();
+
+	}
+
+	@Test
+	public void testGetFirstName() 
+	{
+		assertNotNull(john);
+		assertEquals("john", john.getFirstName());
+		assertEquals("moody", john.getLastName());
+		assertEquals("UTD", Student.schoolName);
+		
+		
+		assertEquals(false, passOrFail);
+		assertEquals(null, isStudentPass);
+		
+	}
+	
+	@Test
+	public void testStudentSet() 
+	{
+		Student robert = new Student("robert","dow");
+		setOfStudents.add(robert);
+		
+		
+		
+	}
+	
+
+
+
+}
