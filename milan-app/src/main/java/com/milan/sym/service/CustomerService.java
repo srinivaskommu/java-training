@@ -14,7 +14,7 @@ import com.milan.sym.util.MilanDataBaseException;
  */
 public interface CustomerService 
 {
-	void saveCustomer(Customer customer) throws MilanDataBaseException;
+	Customer saveCustomer(Customer customer) throws MilanDataBaseException;
 	List<Customer> loadAllCustomers(); 
 
 }

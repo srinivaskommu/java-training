@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.milan.domain.ioc.Person"/>
-<fullyQualifiedTypeName name="java.sql.Statement"/>
-<fullyQualifiedTypeName name="java.sql.ResultSet"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
-<fullyQualifiedTypeName name="java.sql.DriverManager"/>
-<fullyQualifiedTypeName name="com.milan.sym.util.MilanDataBaseException"/>
-<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
 <fullyQualifiedTypeName name="java.sql.CallableStatement"/>
 <fullyQualifiedTypeName name="java.sql.Types"/>
@@ -14,7 +7,6 @@
 <fullyQualifiedTypeName name="com.milan.demo.Address"/>
 <fullyQualifiedTypeName name="com.isko.app.domain.Professor"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
-<fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="com.isko.app.exceptions.IskoNotSupportedFileExtn"/>
 <fullyQualifiedTypeName name="org.springframework.core.io.ClassPathResource"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.xml.XmlBeanFactory"/>
@@ -23,7 +15,6 @@
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.isko.app.util.collections.StudentCollections"/>
 <fullyQualifiedTypeName name="java.util.Collection"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 <fullyQualifiedTypeName name="org.junit.Before"/>
@@ -40,7 +31,6 @@
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="com.isko.app.util.threads.ThreadExample"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.isko.app.util.threads.CalcExThread"/>
 <fullyQualifiedTypeName name="com.isko.app.util.threads.CalcExImpl"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
@@ -56,8 +46,18 @@
 <fullyQualifiedTypeName name="org.springframework.web.context.support.WebApplicationContextUtils"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.config.AutowireCapableBeanFactory"/>
 <fullyQualifiedTypeName name="org.springframework.web.context.support.SpringBeanAutowiringSupport"/>
-<fullyQualifiedTypeName name="com.milan.domain.ioc.Address"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.milan.sym.domain.CustomerDAO"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.isko.app.service.PhoneDirectoryService"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="com.milan.sym.util.MilanDataBaseException"/>
+<fullyQualifiedTypeName name="com.milan.domain.ioc.Address"/>
+<fullyQualifiedTypeName name="com.milan.sym.domain.Visit"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.milan.sym.domain.VisitDAO"/>
+<fullyQualifiedTypeName name="com.milan.sym.domain.util.MilanSqlUtil"/>
 <fullyQualifiedTypeName name="com.milan.sym.domain.Customer"/>
 </qualifiedTypeNameHistroy>

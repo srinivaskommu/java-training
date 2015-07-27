@@ -20,7 +20,7 @@ body {
 </head>
 <body>
 
-	<form action="/hello">
+	<form action="addCustomer.jsp">
 
 		<h1 style="text-align: center">Customer form</h1>
 		<br>

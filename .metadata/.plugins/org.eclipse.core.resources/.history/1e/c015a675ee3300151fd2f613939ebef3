@@ -1,0 +1,4 @@
+app.driverName=
+app.databaseName = jdbc:oracle:thin:@10.0.38.115:8080:OLP1DI
+app.userName = olp_v126
+app.password = olp_v126

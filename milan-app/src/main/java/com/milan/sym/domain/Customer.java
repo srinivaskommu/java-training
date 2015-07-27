@@ -10,6 +10,8 @@ public class Customer
 	private String lastName;
 	private String isAMember;
 	private String memberType;
+	private Long customerId;
+	
 	
 	Address address;
 	List<Visit> visits;
@@ -49,6 +51,12 @@ public class Customer
 	}
 	public void setVisits(List<Visit> visits) {
 		this.visits = visits;
+	}
+	public Long getCustomerId() {
+		return customerId;
+	}
+	public void setCustomerId(Long customerId) {
+		this.customerId = customerId;
 	}
 
 	

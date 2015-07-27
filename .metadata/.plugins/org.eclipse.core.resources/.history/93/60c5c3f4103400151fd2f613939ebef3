@@ -1,0 +1,11 @@
+package com.milan.sym.domain;
+
+public class Visit 
+{
+	private Date dateTime;
+	private double serviceExpense;
+	private double productExpense; 
+	
+	
+
+}

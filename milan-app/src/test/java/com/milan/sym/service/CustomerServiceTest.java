@@ -1,6 +1,11 @@
 package com.milan.sym.service;
 
+import static org.junit.Assert.*;
+
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -8,14 +13,17 @@ import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import com.milan.domain.ioc.Address;
 import com.milan.sym.domain.Customer;
 import com.milan.sym.domain.CustomerDAO;
 import com.milan.sym.domain.CustomerDaoJDBCImpl;
+import com.milan.sym.domain.Visit;
 import com.milan.sym.util.MilanDataBaseException;
 
 public class CustomerServiceTest 
 {
 	CustomerService service;
+	
 
 	Customer robert;
 
@@ -25,6 +33,7 @@ public class CustomerServiceTest
 	public void setUp()
 	{
 		ctx = new ClassPathXmlApplicationContext("milanbeans.xml");
+		service = (CustomerService)ctx.getBean("customerService");
 	}
 
 
@@ -32,10 +41,58 @@ public class CustomerServiceTest
 	public void testSaveCustomer() throws BeansException, ClassNotFoundException, SQLException 
 	
 	{
-//		CustomerDAO customerDAO= (CustomerDAO)ctx.getBean("customerDao");
-		robert =(Customer) ctx.getBean("robert");
-		service = (CustomerService)ctx.getBean("customerService");
-		service.saveCustomer(robert);
+		givenACustomerWithAddressAndVisit();
+		whenICallSaveCustomer();
+		thenIWillExepectOneCustomerInDatabase();
+		
+	}
+	
+
+
+
+	@Test
+	public void testLoadAllCustomer() 
+	
+	{
+		fail("not implemenetd");
+		
+	}
+	
+	
+	private void thenIWillExepectOneCustomerInDatabase() 
+	{
+		
+		assertNotNull(robert);
+		
+		
+		
+		
+	}
+
+
+	private void whenICallSaveCustomer() throws MilanDataBaseException 
+	{
+		robert = service.saveCustomer(robert);
+		
+	}
+
+
+	private void givenACustomerWithAddressAndVisit() 
+	{
+		robert = new Customer();
+		robert.setFirstName("rober");
+		robert.setLastName("Dow");
+		robert.setIsAMember("Y");
+		robert.setMemberType("GOLD");
+		//
+		Address robertAddress = new Address("32767 clairing", "culver city", "CA", "90034");
+		robert.setAddress(robertAddress);
+		//
+		Visit visit = new Visit(new Date(System.currentTimeMillis()), 1000.0, 550.55);
+		List<Visit> visits = new ArrayList<Visit>();
+		visits.add(visit);
+		
+		robert.setVisits(visits);
 		
 	}
 

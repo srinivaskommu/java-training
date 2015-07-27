@@ -1,0 +1,3 @@
+app.databaseName = jdbc:oracle:thin:@10.0.38.115:8080:OLP1DI
+app.userName = root
+app.password = root

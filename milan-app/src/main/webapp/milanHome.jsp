@@ -23,6 +23,13 @@ body {
 		<h style="font-size:300%""text-align:center"> MILAN PRODUCT</h>
 		<br> <br> <br>
 		<table style="width: 100%">
+		
+		<%   
+out.print("Welcome "+request.getParameter("uname"));  
+  
+String driver=config.getInitParameter("dname");  
+out.print("driver name is="+driver);  
+%>  
 
 			<p>
 				username:<input type="text" name="username" /><br> password :<input

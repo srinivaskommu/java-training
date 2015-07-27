@@ -13,5 +13,7 @@
 <typeInfo handle="=milan-app/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_45.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.lang(Runnable.class[Runnable" modifiers="1537" timestamp="1428689516000"/>
 <typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.domain{Customer.java[Customer" modifiers="1" timestamp="1437799118000"/>
 <typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.service{CustomerServiceImpl.java[CustomerServiceImpl" modifiers="1" timestamp="1437800367000"/>
-<typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.domain{CustomerDaoJDBCImpl.java[CustomerDaoJDBCImpl" modifiers="1" timestamp="1437800391000"/>
+<typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.domain{CustomerDaoJDBCImpl.java[CustomerDaoJDBCImpl" modifiers="1" timestamp="1437953426000"/>
+<typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.domain{AddressDAO.java[AddressDAO" modifiers="513" timestamp="1437968835000"/>
+<typeInfo handle="=milan-app/src\/main\/java&lt;com.milan.sym.domain{VisitDAO.java[VisitDAO" modifiers="513" timestamp="1437968843000"/>
 </typeInfoHistroy>
