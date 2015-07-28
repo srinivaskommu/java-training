@@ -8,6 +8,7 @@ public class Professor
 	private String lastName;
 	private char gender;
 	private String ssn;
+	private Long professorId;
 
 	public Professor() {
 

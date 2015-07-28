@@ -4,6 +4,7 @@ public class Student
 {
 	static String schoolName = "UTD";
 	
+	private Long studentId;
 	private String firstName;
 	private String lastName;
 	

@@ -12,50 +12,44 @@ import com.milan.sym.domain.CustomerDaoJDBCImpl;
 import com.milan.sym.domain.VisitDAO;
 import com.milan.sym.util.MilanDataBaseException;
 
-public class CustomerServiceImpl implements CustomerService 
-{
-	
-	@Autowired(required=true)
+public class CustomerServiceImpl implements CustomerService {
+
+	@Autowired(required = true)
 	CustomerDAO customerDao;
-	
-	@Autowired(required=true)
+
+	@Autowired(required = true)
 	AddressDAO addressDao;
-	
-	@Autowired(required=true)
+
+	@Autowired(required = true)
 	VisitDAO visitDao;
-	
 
-	public CustomerServiceImpl() throws ClassNotFoundException, SQLException 
-	{
-		
-	}
-
-	public Customer saveCustomer(Customer customer) throws MilanDataBaseException 
-	{
-
-
-		
-		 Customer response = customerDao.createCustomer(customer);
-		
-		 //
-		
-		 addressDao.createAddress(response.getCustomerId(),customer.getAddress());
-		
-		 
-		 //
-		 visitDao.addVisit(response.getCustomerId(),customer.getVisits());
-		
-		 
-		 return response;
+	public CustomerServiceImpl() throws ClassNotFoundException, SQLException {
 
 	}
 
-	public List<Customer> loadAllCustomers() 
-	{
+	public Customer saveCustomer(Customer customer)
+			throws MilanDataBaseException {
+
+		//
+
+		// /addressDao.createAddress(response.getCustomerId(),customer.getAddress());
+
+		//
+		try {
+			Customer response = customerDao.createCustomer(customer);
+			visitDao.addVisit(response.getCustomerId(), customer.getVisits());
+
+			return response;
+
+		} catch (SQLException e) {
+			throw new MilanDataBaseException(e.getMessage());
+		}
+
+	}
+
+	public List<Customer> loadAllCustomers() {
 		return customerDao.findAllCustomers();
 
 	}
-
-
 
 }

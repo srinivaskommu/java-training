@@ -87,10 +87,17 @@ public class CustomerServiceTest
 		//
 		Address robertAddress = new Address("32767 clairing", "culver city", "CA", "90034");
 		robert.setAddress(robertAddress);
-		//
-		Visit visit = new Visit(new Date(System.currentTimeMillis()), 1000.0, 550.55);
+
+		Visit visit = new Visit(1l,1l,new Date(),120.22,233.22);
+		visit.setDescription("tidats visit");
+		
 		List<Visit> visits = new ArrayList<Visit>();
 		visits.add(visit);
+		
+		Visit visit1 = new Visit(1l,1l,new Date(),120.22,233.22);
+		visit1.setDescription("yesterdays visit");
+		
+		visits.add(visit1);
 		
 		robert.setVisits(visits);
 		

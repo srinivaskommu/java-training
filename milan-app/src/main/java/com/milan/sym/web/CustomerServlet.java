@@ -32,28 +32,6 @@ public class CustomerServlet extends HttpServlet
 	public void doPost(HttpServletRequest req, HttpServletResponse res)
 			throws ServletException, IOException 
 	{
-
-		
-		Customer cust = new Customer();
-		try {
-			customerService.saveCustomer(cust);
-		} catch (MilanDataBaseException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		
-		
-
-	}
-	
-	
-
-	public void doGet(HttpServletRequest req, HttpServletResponse res)
-			throws ServletException, IOException 
-	{
-		
-		
 		Customer customer = new Customer();
 		customer.setFirstName(req.getParameter("firstname"));
 		customer.setLastName(req.getParameter("lastName"));
@@ -78,6 +56,29 @@ public class CustomerServlet extends HttpServlet
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+
+		
+		Customer cust = new Customer();
+		try {
+			customerService.saveCustomer(cust);
+		} catch (MilanDataBaseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+
+	}
+	
+	
+
+	public void doGet(HttpServletRequest req, HttpServletResponse res)
+			throws ServletException, IOException 
+	{
+		
+		
+	
 		
 		
 
