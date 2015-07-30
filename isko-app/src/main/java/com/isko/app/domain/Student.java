@@ -5,6 +5,9 @@ public class Student
 	static String schoolName = "UTD";
 	
 	private Long studentId;
+
+
+
 	private String firstName;
 	private String lastName;
 	
@@ -31,6 +34,14 @@ public class Student
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+	public Long getStudentId() {
+		return studentId;
+	}
+
+
+	public void setStudentId(Long studentId) {
+		this.studentId = studentId;
 	}
 
 
