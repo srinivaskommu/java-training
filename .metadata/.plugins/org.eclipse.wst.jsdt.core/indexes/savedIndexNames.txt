@@ -1,8 +1,3 @@
 INDEX VERSION 1.3+/Users/srinivas_kommu/java training/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
 3024349633.index
-1768553474.index
-1186131713.index
-3705882253.index
-4202184595.index
 4070506548.index
-3573120267.index
