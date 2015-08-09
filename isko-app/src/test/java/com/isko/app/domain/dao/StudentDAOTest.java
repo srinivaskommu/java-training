@@ -8,6 +8,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.isko.app.domain.Course;
 import com.isko.app.domain.Student;
 
 public class StudentDAOTest 
@@ -34,7 +35,7 @@ public class StudentDAOTest
 	@Test
 	public void testInsertStudent() throws ClassNotFoundException, SQLException 
 	{
-		Student robert = new Student("raman"+(System.currentTimeMillis()/1000), "singh");
+		Student robert = new Student("raman"+(System.currentTimeMillis()/1000), "singh",null);
 		dao.insertStudent(robert);
 		
 	}
@@ -44,6 +45,19 @@ public class StudentDAOTest
 	{
 		
 		dao.selectAllStudents();
+	}
+	
+	@Test
+	public void testStudentIOC()
+	{
+		Course agri = new Course();
+		Course chem = new Course();
+		Course int0 = new Course();
+		
+		
+		Student john = new Student("jphn", "johon", int0);
+		Student mayor = new Student("nancy ","mayor", null);
+		
 	}
 
 }

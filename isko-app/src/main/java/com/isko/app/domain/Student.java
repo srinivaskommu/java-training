@@ -1,23 +1,49 @@
 package com.isko.app.domain;
 
+import java.util.List;
+
 public class Student 
 {
 	static String schoolName = "UTD";
-	
 	private Long studentId;
-
-
-
 	private String firstName;
 	private String lastName;
+	private List<Course> courses;
 	
-	public Student(String f, String l)
+	
+	public Student(String f, String l,Course courseName)
 	{
 		firstName = f;
 		lastName = l;
+		enrolledCourse = courseName;
 		
 	}
 	
+	
+	
+	public static String getSchoolName() {
+		return schoolName;
+	}
+
+
+	public static void setSchoolName(String schoolName) {
+		Student.schoolName = schoolName;
+	}
+
+
+	public Course getEnrolledCourse() {
+		return enrolledCourse;
+	}
+
+
+	public void setEnrolledCourse(Course enrolledCourse) {
+		this.enrolledCourse = enrolledCourse;
+	}
+
+
+	private Course enrolledCourse;
+	
+
 
 	public String getFirstName() 
 	{
@@ -77,6 +103,18 @@ public class Student
 		} else if (!lastName.equals(other.lastName))
 			return false;
 		return true;
+	}
+
+
+
+	public List<Course> getCourses() {
+		return courses;
+	}
+
+
+
+	public void setCourses(List<Course> courses) {
+		this.courses = courses;
 	}
 	
 	

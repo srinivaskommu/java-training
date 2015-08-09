@@ -1,9 +1,0 @@
-package com.milan.sym.domain;
-
-import com.milan.domain.ioc.Address;
-
-public interface AddressDAO {
-
-	void createAddress(Address address);
-
-}

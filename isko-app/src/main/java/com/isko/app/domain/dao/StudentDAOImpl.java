@@ -30,8 +30,8 @@ public class StudentDAOImpl implements StudentDAO {
 		Class.forName(driverName);
 
 		// create the connection
-		connection = DriverManager.getConnection(dbUrl, "olp_v126",
-				"olp_v126");
+//		connection = DriverManager.getConnection(dbUrl, "olp_v126",
+//				"olp_v126");
 
 	}
 

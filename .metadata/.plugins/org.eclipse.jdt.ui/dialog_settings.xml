@@ -3,7 +3,7 @@
 	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
 	<item value="3" key="TypeHierarchyViewPart.orientation"/>
 	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
-	<item value="/Users/srinivas_kommu/Downloads/spcorejars" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="/Users/srinivas_kommu/.m2/repository/javax/servlet/servlet-api/2.5" key="org.eclipse.jdt.ui.lastextjar"/>
 	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
 	<section name="SelfEncapsulateFieldWizard">
 		<item value="false" key="GenerateJavadoc"/>
@@ -180,7 +180,7 @@
 		<item value="5" key="index"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item value="2" key="pageIndex"/>
+		<item value="3" key="pageIndex"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>

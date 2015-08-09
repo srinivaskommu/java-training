@@ -5,6 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>isko-app</name>
   <description>isko.com.app</description>
+	<packaging>war</packaging>	
   <dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -26,9 +27,46 @@
         <artifactId>spring-jdbc</artifactId>
         <version>${spring.version}</version>
       </dependency>
+   <dependency>
+	<groupId>javax.servlet</groupId>
+	<artifactId>servlet-api</artifactId>
+	<version>${servlet.version}</version>
+</dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+
+        </dependency>
+      
   	</dependencies>
 
 	<properties>
 		<spring.version>3.2.3.RELEASE</spring.version>
+		<servlet.version>3.0-alpha-1</servlet.version>
 	</properties>
+	
+	
+	<build>
+		<finalName>isko-app</finalName>
+		<plugins>
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+					<attachClasses>true</attachClasses>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.3-SNAPSHOT</version>
+				<configuration>
+					<url>http://www.mydomain.com:1234/mymanager</url>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
 </project>

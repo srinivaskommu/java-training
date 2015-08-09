@@ -31,17 +31,17 @@ public class StudentTest
 	@Test
 	public void testStudentSet() 
 	{
-		Student robert = new Student("robert","dow");
+		Student robert = new Student("robert","dow",null);
 		setOfStudents.add(robert);
 		
 		System.out.println("robert hashcode"+robert.hashCode());
 		
-		Student robert1 = new Student("robert","dow");
+		Student robert1 = new Student("robert","dow",null);
 		setOfStudents.add(robert1);
 		System.out.println("robert1 hashcode"+robert1.hashCode());
 
 		
-		Student robert2 = new Student("robert","dow");
+		Student robert2 = new Student("robert","dow",null);
 		setOfStudents.add(robert2);
 		
 		System.out.println("robert2 hashcode"+robert2.hashCode());

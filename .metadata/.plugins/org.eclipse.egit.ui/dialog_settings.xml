@@ -7,6 +7,13 @@
 	<list key="CommitDialog.committerValues">
 		<item value="Srinivas Kommu &lt;srini@github.com&gt;"/>
 	</list>
+	<section name="org.eclipse.egit.ui.internal.dialogs.RebaseTargetSelectionDialog.dialogBounds">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="512" key="DIALOG_HEIGHT"/>
+		<item value="387" key="DIALOG_X_ORIGIN"/>
+		<item value="87" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="GitImportWizard">
 	</section>
 	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
@@ -15,6 +22,13 @@
 		<item value="440" key="DIALOG_HEIGHT"/>
 		<item value="135" key="DIALOG_Y_ORIGIN"/>
 		<item value="300" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.repository.CreateBranchPage$SourceSelectionDialog.dialogBounds">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="462" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="-130" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.merge.MergeResultDialog.dialogBounds">
 		<item value="414" key="DIALOG_WIDTH"/>
@@ -45,5 +59,7 @@
 		<item value="686" key="DIALOG_HEIGHT"/>
 		<item value="363" key="DIALOG_X_ORIGIN"/>
 		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="GitCreatePatchWizard">
 	</section>
 </section>

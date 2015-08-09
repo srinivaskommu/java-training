@@ -2,25 +2,26 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="System.out." key="selection"/>
+		<item value="junit" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="System.err."/>
-			<item value="CustomerServlet"/>
-			<item value="com.webapp"/>
-			<item value="customerService"/>
-			<item value="customerDao"/>
-			<item value="// TODO Auto-generated constructor stub"/>
+			<item value="junit"/>
+			<item value="struts2.version"/>
 			<item value="// TODO Auto-generated method stub"/>
-			<item value="&#x09;// TODO Auto-generated method stub"/>
+			<item value="studentDao"/>
+			<item value="servlet"/>
+			<item value="@Test"/>
+			<item value="provided"/>
+			<item value="System.err."/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
+			<item value="//@Test"/>
 			<item value="System.out."/>
 			<item value="com.milan.sym.web"/>
-			<item value=""/>
 			<item value="EmployeeDao"/>
 		</list>
 	</section>
@@ -28,7 +29,7 @@
 		<item value="265" key="DIALOG_WIDTH"/>
 		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
-		<item value="143" key="DIALOG_Y_ORIGIN"/>
-		<item value="706" key="DIALOG_X_ORIGIN"/>
+		<item value="78" key="DIALOG_Y_ORIGIN"/>
+		<item value="887" key="DIALOG_X_ORIGIN"/>
 	</section>
 </section>
