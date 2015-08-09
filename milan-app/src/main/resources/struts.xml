@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts  
+Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">  
+<struts>  
+<package name="default" extends="struts-default">  
+  
+<action name="customer" class="com.milan.sym.adv.web.CustomerAction">  
+	<result name="success" type="chain">customerListView</result>  
+	<result name="failure">/registerCustomer.jsp</result>
+	<result name="input">/registerCustomer.jsp</result>
+</action>  
+
+
+<action name="mialnHome" class="com.milan.sym.adv.web.MilanHomeAction">  
+	<result name="success">milanHome.jsp</result>  
+	<result name="failure">Error.jsp</result>
+</action> 
+
+<action name="customerListView" class="com.milan.sym.adv.web.CustomerListViewAction">  
+	<result name="success">listViewCustomer.jsp</result>  
+	<result name="failure">Error.jsp</result>
+</action> 
+ 
+ <action name="home">
+            <result>/home.jsp</result>
+</action>
+
+
+</package>  
+
+</struts> 
