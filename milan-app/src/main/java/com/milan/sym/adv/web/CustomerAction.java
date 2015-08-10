@@ -2,6 +2,7 @@ package com.milan.sym.adv.web;
 
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.opensymphony.xwork2.ActionSupport;
@@ -14,6 +15,7 @@ import com.milan.sym.util.MilanDataBaseException;
 
 public class CustomerAction extends ActionSupport
 {
+	final static Logger logger = Logger.getLogger(CustomerAction.class);
 	
 	@Autowired
 	CustomerService service;
@@ -21,7 +23,9 @@ public class CustomerAction extends ActionSupport
 	public String execute()
 	{
 		
-		System.out.println("First NAme"+firstName);
+//		System.out.println("First NAme"+firstName);
+		
+		logger.debug("test");
 		
 		return "success";
 
@@ -73,9 +77,11 @@ public class CustomerAction extends ActionSupport
 	
 	public void validate() 
 	{
-		 if(getFirstName().length()<1)  
-		        addFieldError("firstName","Name can't be blank");  
-	   
+		
+		 if(getFirstName().length()<1){  
+		        addFieldError("firstName","Name can't be blank"); 
+		        logger.error("error");
+		 }
 
 	}  
 

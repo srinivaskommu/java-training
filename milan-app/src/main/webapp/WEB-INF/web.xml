@@ -34,8 +34,45 @@
    
   <filter-mapping>  
    <filter-name>struts2</filter-name>  
-    <url-pattern>/*</url-pattern>  
+    <url-pattern>/pages/*</url-pattern>  
   </filter-mapping>
+
+
+<servlet>
+ <description>CXF Endpoint</description>
+ <servlet-name>webservice</servlet-name>
+ <servlet-class>org.apache.cxf.transport.servlet.CXFServlet</servlet-class>
+ <load-on-startup>1</load-on-startup>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>webservice</servlet-name>
+ <url-pattern>/soap/api/*</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+		<servlet-name>mvc-dispatcher</servlet-name>
+		<servlet-class>
+			org.springframework.web.servlet.DispatcherServlet
+		</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value></param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mvc-dispatcher</servlet-name>
+		<url-pattern>/rest/api/*</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
 
 	<!--
 	<servlet>

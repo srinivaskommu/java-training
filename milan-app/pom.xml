@@ -9,9 +9,12 @@
 	<packaging>war</packaging>
     <properties>
         <struts2.version>2.3.15.1</struts2.version>
+        <cxf.version>3.0.4</cxf.version>
     </properties>
-
+    
+ 
 	<dependencies>
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -108,26 +111,18 @@
             <version>4.11</version>
 
         </dependency>
-        
-<!--         <dependency>
-	<groupId>com.opensymphony</groupId>
-	<artifactId>xwork-core</artifactId>
-	<version>2.1.6</version>
-</dependency>
 
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>2.4</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jsp-api</artifactId>
-            <version>2.0</version>
-            <scope>provided</scope>
-        </dependency> -->
+	<dependency>
+		<groupId>org.apache.cxf</groupId>
+		<artifactId>cxf-rt-frontend-jaxws</artifactId>
+		<version>${cxf.version}</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.apache.cxf</groupId>
+		<artifactId>cxf-rt-transports-http</artifactId>
+		<version>${cxf.version}</version>
+	</dependency> 
 
 	</dependencies>
 	<build>
