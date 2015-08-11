@@ -1,4 +1,4 @@
-package com.milan.sym.web.ws;
+package com.milan.sym.web.ws.soap;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.milan.sym.domain.Customer;
 import com.milan.sym.service.CustomerService;
 
-@WebService(endpointInterface = "com.milan.sym.web.ws.CustomerWebService", 
+@WebService(endpointInterface = "com.milan.sym.web.ws.soap.CustomerWebService", 
 serviceName = "CustomerWebServiceSOAPImpl", 
 targetNamespace = "http://services.mialn.app.com")
 public class CustomerWebServiceSOAPImpl implements CustomerWebService 
@@ -32,7 +32,16 @@ public class CustomerWebServiceSOAPImpl implements CustomerWebService
 		cs.setFirstName("ROBERT");
 		cs.setLastName("DOW");
 		
+		
+		
 		list.add(cs);
+		
+		
+		Customer cs1 = new Customer();
+		cs1.setFirstName("NANCY");
+		cs1.setLastName("DOW");
+		
+		list.add(cs1);
 		
 		return list;
 	}

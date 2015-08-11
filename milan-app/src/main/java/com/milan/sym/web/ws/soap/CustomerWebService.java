@@ -1,4 +1,4 @@
-package com.milan.sym.web.ws;
+package com.milan.sym.web.ws.soap;
 
 import java.util.List;
 import javax.jws.WebService;

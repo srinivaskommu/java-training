@@ -50,7 +50,7 @@
  <url-pattern>/soap/api/*</url-pattern>
  </servlet-mapping>
 
-<servlet>
+	<servlet>
 		<servlet-name>mvc-dispatcher</servlet-name>
 		<servlet-class>
 			org.springframework.web.servlet.DispatcherServlet
