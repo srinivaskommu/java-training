@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://services.mialn.app.com" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:ns1="http://services.milan.app.com" name="CustomerWebServiceSOAPImpl" targetNamespace="http://services.mialn.app.com">
+  <wsdl:import location="http://localhost:8080/milan-app/soap/api/customer?wsdl=CustomerWebService.wsdl" namespace="http://services.milan.app.com">
+    </wsdl:import>
+  <wsdl:binding name="CustomerWebServiceSOAPImplSoapBinding" type="ns1:CustomerWebService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="saveCustomer">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="saveCustomer">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="saveCustomerResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findAllCustomers">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="findAllCustomers">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="findAllCustomersResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CustomerWebServiceSOAPImpl">
+    <wsdl:port binding="tns:CustomerWebServiceSOAPImplSoapBinding" name="CustomerWebServiceSOAPImplPort">
+      <soap:address location="http://localhost:8080/milan-app/soap/api/customer"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
